@@ -1,0 +1,302 @@
+{
+  "10e": {
+    "Maths": [
+      { "question": "Combien font 2 + 2 ?", "options": ["3", "4", "5", "6"], "correctIndex": 1 },
+      { "question": "Quel est le résultat de 7 × 8 ?", "options": ["54", "56", "58", "60"], "correctIndex": 1 },
+      { "question": "Quelle est la valeur de π (pi) arrondie à 2 décimales ?", "options": ["3.12", "3.14", "3.16", "3.18"], "correctIndex": 1 },
+      { "question": "Combien font 15² (15 au carré) ?", "options": ["175", "200", "225", "250"], "correctIndex": 2 },
+      { "question": "Quelle est la racine carrée de 144 ?", "options": ["10", "11", "12", "13"], "correctIndex": 2 },
+      { "question": "Si x + 5 = 12, quelle est la valeur de x ?", "options": ["5", "6", "7", "8"], "correctIndex": 2 }
+    ],
+    "Physique": [
+      { "question": "Quelle est l'unité de la force dans le système international ?", "options": ["Joule", "Newton", "Pascal", "Watt"], "correctIndex": 1 },
+      { "question": "Quelle est la vitesse de la lumière dans le vide ?", "options": ["200 000 km/s", "250 000 km/s", "300 000 km/s", "350 000 km/s"], "correctIndex": 2 },
+      { "question": "Quelle formule représente la vitesse ?", "options": ["v = m × a", "v = d / t", "v = F / m", "v = P × t"], "correctIndex": 1 },
+      { "question": "L'eau bout à quelle température à pression atmosphérique normale ?", "options": ["90°C", "95°C", "100°C", "105°C"], "correctIndex": 2 },
+      { "question": "Quelle est l'unité de la pression ?", "options": ["Newton", "Joule", "Pascal", "Ampère"], "correctIndex": 2 },
+      { "question": "Quel instrument mesure la température ?", "options": ["Baromètre", "Thermomètre", "Voltmètre", "Ampèremètre"], "correctIndex": 1 }
+    ],
+    "Chimie": [
+      { "question": "Quel est le symbole chimique de l'eau ?", "options": ["HO", "H2O", "H2O2", "OH"], "correctIndex": 1 },
+      { "question": "Quel est le numéro atomique de l'oxygène ?", "options": ["6", "7", "8", "9"], "correctIndex": 2 },
+      { "question": "Quelle est la formule du dioxyde de carbone ?", "options": ["CO", "CO2", "C2O", "CO3"], "correctIndex": 1 },
+      { "question": "Quel gaz est produit lors de la photosynthèse ?", "options": ["CO2", "N2", "O2", "H2"], "correctIndex": 2 },
+      { "question": "Quel est le symbole chimique du fer ?", "options": ["Fe", "Fr", "Fi", "Fo"], "correctIndex": 0 },
+      { "question": "Combien d'atomes d'hydrogène contient une molécule d'eau ?", "options": ["1", "2", "3", "4"], "correctIndex": 1 }
+    ],
+    "SVT": [
+      { "question": "Quel organe pompe le sang dans le corps humain ?", "options": ["Poumon", "Foie", "Cœur", "Rein"], "correctIndex": 2 },
+      { "question": "Combien de chromosomes possède une cellule humaine normale ?", "options": ["23", "44", "46", "48"], "correctIndex": 2 },
+      { "question": "Quel processus permet aux plantes de fabriquer leur nourriture ?", "options": ["Respiration", "Photosynthèse", "Digestion", "Transpiration"], "correctIndex": 1 },
+      { "question": "Quel est le rôle principal des globules rouges ?", "options": ["Défense immunitaire", "Coagulation", "Transport de l'oxygène", "Digestion"], "correctIndex": 2 },
+      { "question": "Dans quelle partie de la cellule se trouve l'ADN ?", "options": ["Cytoplasme", "Membrane", "Noyau", "Mitochondrie"], "correctIndex": 2 },
+      { "question": "Quel organe filtre le sang et produit l'urine ?", "options": ["Foie", "Pancréas", "Rate", "Rein"], "correctIndex": 3 }
+    ],
+    "Histoire-Géographie": [
+      { "question": "En quelle année a eu lieu la Première Guerre mondiale ?", "options": ["1912-1916", "1914-1918", "1916-1920", "1918-1922"], "correctIndex": 1 },
+      { "question": "Quel est le plus grand pays du monde en superficie ?", "options": ["Canada", "Chine", "États-Unis", "Russie"], "correctIndex": 3 },
+      { "question": "Quelle est la capitale de la France ?", "options": ["Lyon", "Marseille", "Paris", "Bordeaux"], "correctIndex": 2 },
+      { "question": "Quel fleuve traverse l'Égypte ?", "options": ["Congo", "Niger", "Nil", "Zambèze"], "correctIndex": 2 },
+      { "question": "En quelle année Christophe Colomb a-t-il découvert l'Amérique ?", "options": ["1488", "1490", "1492", "1494"], "correctIndex": 2 },
+      { "question": "Quel continent est le plus peuplé ?", "options": ["Afrique", "Asie", "Europe", "Amérique"], "correctIndex": 1 }
+    ],
+    "Économie": [
+      { "question": "Qu'est-ce que le PIB ?", "options": ["Produit Interne Brut", "Prix Indicatif de Base", "Profit Industriel Brut", "Plan d'Investissement Bancaire"], "correctIndex": 0 },
+      { "question": "Qu'est-ce que l'inflation ?", "options": ["Baisse générale des prix", "Hausse générale des prix", "Stabilité des prix", "Baisse du chômage"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'un budget équilibré ?", "options": ["Recettes > Dépenses", "Recettes < Dépenses", "Recettes = Dépenses", "Aucune dépense"], "correctIndex": 2 },
+      { "question": "Quel est le rôle d'une banque centrale ?", "options": ["Vendre des produits", "Gérer la politique monétaire", "Produire des biens", "Collecter les impôts"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le chômage ?", "options": ["Travailler à temps partiel", "Être sans emploi et en chercher un", "Être à la retraite", "Travailler au noir"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que l'offre et la demande ?", "options": ["Un système fiscal", "Un mécanisme de fixation des prix", "Une loi gouvernementale", "Un type de contrat"], "correctIndex": 1 }
+    ]
+  },
+  "11e": {
+    "Maths": [
+      { "question": "Quelle est la dérivée de f(x) = x² ?", "options": ["f'(x) = x", "f'(x) = 2x", "f'(x) = 2x²", "f'(x) = x/2"], "correctIndex": 1 },
+      { "question": "Que vaut sin(90°) ?", "options": ["0", "0.5", "1", "√2/2"], "correctIndex": 2 },
+      { "question": "Quelle est la solution de 2x - 6 = 0 ?", "options": ["x = 2", "x = 3", "x = 4", "x = 6"], "correctIndex": 1 },
+      { "question": "Que vaut cos(0°) ?", "options": ["0", "0.5", "√2/2", "1"], "correctIndex": 3 },
+      { "question": "Quel est le discriminant de x² - 5x + 6 = 0 ?", "options": ["1", "4", "9", "16"], "correctIndex": 0 },
+      { "question": "Quelle est la limite de (1/x) quand x tend vers +∞ ?", "options": ["+∞", "1", "0", "-∞"], "correctIndex": 2 }
+    ],
+    "Physique": [
+      { "question": "Quelle est la formule de l'énergie cinétique ?", "options": ["Ec = mgh", "Ec = ½mv²", "Ec = mv", "Ec = F×d"], "correctIndex": 1 },
+      { "question": "Quelle est la loi d'Ohm ?", "options": ["U = R/I", "U = R×I", "U = I/R", "U = R+I"], "correctIndex": 1 },
+      { "question": "Quelle est l'unité de l'énergie ?", "options": ["Newton", "Watt", "Joule", "Volt"], "correctIndex": 2 },
+      { "question": "Qu'est-ce que la fréquence d'une onde ?", "options": ["Sa vitesse", "Son amplitude", "Le nombre de cycles par seconde", "Sa longueur d'onde"], "correctIndex": 2 },
+      { "question": "Quelle est la relation entre période T et fréquence f ?", "options": ["T = f²", "T = f", "T = 1/f", "T = 2f"], "correctIndex": 2 },
+      { "question": "Quelle est l'unité de la résistance électrique ?", "options": ["Volt", "Ampère", "Ohm", "Farad"], "correctIndex": 2 }
+    ],
+    "Chimie": [
+      { "question": "Quelle est la configuration électronique du carbone (Z=6) ?", "options": ["1s² 2s¹ 2p³", "1s² 2s² 2p²", "1s² 2s² 2p⁴", "1s² 2p⁴"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'un acide selon Brønsted-Lowry ?", "options": ["Un donneur d'électrons", "Un accepteur de protons", "Un donneur de protons", "Un accepteur d'électrons"], "correctIndex": 2 },
+      { "question": "Quel est le pH d'une solution neutre ?", "options": ["0", "5", "7", "14"], "correctIndex": 2 },
+      { "question": "Quelle est la formule de l'acide sulfurique ?", "options": ["HCl", "HNO3", "H2SO4", "H3PO4"], "correctIndex": 2 },
+      { "question": "Qu'est-ce qu'une réaction d'oxydoréduction ?", "options": ["Transfert de masse", "Transfert de chaleur", "Transfert d'électrons", "Transfert de protons"], "correctIndex": 2 },
+      { "question": "Quel est le symbole chimique de l'or ?", "options": ["Or", "Go", "Au", "Ag"], "correctIndex": 2 }
+    ],
+    "SVT": [
+      { "question": "Qu'est-ce que la mitose ?", "options": ["Division cellulaire réductionnelle", "Division cellulaire équationnelle", "Fusion de cellules", "Mort cellulaire"], "correctIndex": 1 },
+      { "question": "Quel est le rôle de l'ADN ?", "options": ["Produire de l'énergie", "Porter l'information génétique", "Transporter l'oxygène", "Digérer les aliments"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que l'évolution selon Darwin ?", "options": ["Transformation rapide", "Sélection naturelle", "Mutation aléatoire", "Adaptation volontaire"], "correctIndex": 1 },
+      { "question": "Quel est le rôle des mitochondries ?", "options": ["Synthèse des protéines", "Production d'énergie (ATP)", "Division cellulaire", "Stockage de l'ADN"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la méiose ?", "options": ["Division produisant 2 cellules identiques", "Division produisant 4 cellules haploïdes", "Fusion de gamètes", "Réplication de l'ADN"], "correctIndex": 1 },
+      { "question": "Quel organe produit l'insuline ?", "options": ["Foie", "Rate", "Pancréas", "Rein"], "correctIndex": 2 }
+    ],
+    "Histoire-Géographie": [
+      { "question": "Quelle est la date de la Révolution française ?", "options": ["1779", "1789", "1799", "1809"], "correctIndex": 1 },
+      { "question": "Quel traité a mis fin à la Première Guerre mondiale ?", "options": ["Traité de Paris", "Traité de Versailles", "Traité de Berlin", "Traité de Rome"], "correctIndex": 1 },
+      { "question": "Quelle est la capitale du Brésil ?", "options": ["São Paulo", "Rio de Janeiro", "Brasilia", "Salvador"], "correctIndex": 2 },
+      { "question": "En quelle année a eu lieu la chute du mur de Berlin ?", "options": ["1987", "1988", "1989", "1990"], "correctIndex": 2 },
+      { "question": "Quel est le plus long fleuve du monde ?", "options": ["Amazone", "Nil", "Mississippi", "Yangtsé"], "correctIndex": 1 },
+      { "question": "Quelle est la capitale de l'Australie ?", "options": ["Sydney", "Melbourne", "Brisbane", "Canberra"], "correctIndex": 3 }
+    ],
+    "Économie": [
+      { "question": "Qu'est-ce que le libre-échange ?", "options": ["Commerce sans barrières douanières", "Commerce avec taxes élevées", "Commerce réglementé par l'État", "Commerce uniquement national"], "correctIndex": 0 },
+      { "question": "Qu'est-ce qu'une économie de marché ?", "options": ["L'État contrôle tout", "L'offre et la demande régulent les prix", "Les prix sont fixés par la loi", "Aucun échange commercial"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la mondialisation ?", "options": ["Isolement économique des pays", "Intégration économique mondiale", "Politique nationale protectionniste", "Système de troc international"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'un monopole ?", "options": ["Plusieurs vendeurs, un acheteur", "Un seul vendeur sur le marché", "Plusieurs vendeurs et acheteurs", "Aucun vendeur sur le marché"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la dette publique ?", "options": ["Dettes des entreprises privées", "Dettes des ménages", "Dettes de l'État envers ses créanciers", "Dettes des banques"], "correctIndex": 2 },
+      { "question": "Qu'est-ce que le taux de chômage ?", "options": ["Part des actifs sans emploi", "Part de la population sans emploi", "Nombre total de chômeurs", "Taux d'emploi des jeunes"], "correctIndex": 0 }
+    ]
+  },
+  "TSE": {
+    "Maths": [
+      { "question": "Quelle est la dérivée de f(x) = e^x ?", "options": ["f'(x) = e^(x-1)", "f'(x) = x·e^x", "f'(x) = e^x", "f'(x) = 1/e^x"], "correctIndex": 2 },
+      { "question": "Que vaut ln(e) ?", "options": ["0", "1", "e", "1/e"], "correctIndex": 1 },
+      { "question": "Quelle est l'intégrale de f(x) = 2x ?", "options": ["x", "x²", "x² + C", "2x² + C"], "correctIndex": 2 },
+      { "question": "Que vaut tan(45°) ?", "options": ["0", "√2/2", "1", "√3"], "correctIndex": 2 },
+      { "question": "Quelle est la formule de la somme d'une suite géométrique ?", "options": ["Sn = n(a+l)/2", "Sn = a(1-r^n)/(1-r)", "Sn = na", "Sn = a+r^n"], "correctIndex": 1 },
+      { "question": "Que vaut log₁₀(1000) ?", "options": ["2", "3", "4", "10"], "correctIndex": 1 }
+    ],
+    "Physique": [
+      { "question": "Quelle est la formule de la puissance électrique ?", "options": ["P = U/I", "P = U+I", "P = U×I", "P = U²/I"], "correctIndex": 2 },
+      { "question": "Qu'est-ce que l'effet photoélectrique ?", "options": ["Émission de lumière par un métal", "Émission d'électrons par un métal éclairé", "Absorption de lumière", "Réflexion de lumière"], "correctIndex": 1 },
+      { "question": "Quelle est la relation d'Einstein énergie-masse ?", "options": ["E = mc", "E = mc²", "E = m/c²", "E = m²c"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la radioactivité ?", "options": ["Émission de lumière visible", "Désintégration spontanée de noyaux instables", "Réaction chimique exothermique", "Fusion de noyaux atomiques"], "correctIndex": 1 },
+      { "question": "Quelle est l'unité de la fréquence ?", "options": ["Mètre", "Seconde", "Hertz", "Watt"], "correctIndex": 2 },
+      { "question": "Qu'est-ce qu'un champ magnétique ?", "options": ["Force électrique", "Région où s'exercent des forces magnétiques", "Courant électrique", "Résistance électrique"], "correctIndex": 1 }
+    ],
+    "Chimie": [
+      { "question": "Qu'est-ce qu'une liaison covalente ?", "options": ["Transfert d'électrons", "Partage d'électrons", "Attraction ionique", "Liaison hydrogène"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la constante d'Avogadro ?", "options": ["6,02 × 10²²", "6,02 × 10²³", "6,02 × 10²⁴", "6,02 × 10²⁵"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'une réaction endothermique ?", "options": ["Réaction qui libère de la chaleur", "Réaction qui absorbe de la chaleur", "Réaction sans échange de chaleur", "Réaction explosive"], "correctIndex": 1 },
+      { "question": "Quelle est la formule du méthane ?", "options": ["CH2", "CH3", "CH4", "C2H4"], "correctIndex": 2 },
+      { "question": "Qu'est-ce que la molarité ?", "options": ["Masse en grammes", "Nombre de moles par litre", "Volume en litres", "Pression en atmosphères"], "correctIndex": 1 },
+      { "question": "Quel est le pH d'une solution acide forte ?", "options": ["pH > 7", "pH = 7", "pH < 7", "pH = 0 uniquement"], "correctIndex": 2 }
+    ],
+    "SVT": [
+      { "question": "Qu'est-ce que la transcription en biologie moléculaire ?", "options": ["ADN → ADN", "ADN → ARN", "ARN → Protéine", "Protéine → ADN"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la traduction en biologie moléculaire ?", "options": ["ADN → ARN", "ARN → Protéine", "ADN → Protéine", "Protéine → ARN"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que l'homéostasie ?", "options": ["Variation du milieu interne", "Maintien constant du milieu interne", "Adaptation à l'environnement externe", "Croissance cellulaire"], "correctIndex": 1 },
+      { "question": "Quel est le rôle des anticorps ?", "options": ["Transporter l'oxygène", "Neutraliser les antigènes", "Produire de l'énergie", "Digérer les aliments"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la symbiose ?", "options": ["Relation où un organisme nuit à l'autre", "Relation bénéfique pour les deux organismes", "Relation neutre", "Compétition entre espèces"], "correctIndex": 1 },
+      { "question": "Quel est le rôle du système nerveux central ?", "options": ["Pomper le sang", "Coordonner les activités du corps", "Filtrer le sang", "Produire des hormones"], "correctIndex": 1 }
+    ],
+    "Histoire-Géographie": [
+      { "question": "Qu'est-ce que la colonisation ?", "options": ["Échange commercial équitable", "Domination politique et économique d'un territoire", "Alliance militaire", "Migration volontaire"], "correctIndex": 1 },
+      { "question": "Quand a eu lieu la Seconde Guerre mondiale ?", "options": ["1935-1943", "1939-1945", "1940-1946", "1941-1947"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la décolonisation ?", "options": ["Conquête de nouveaux territoires", "Accession à l'indépendance des colonies", "Renforcement du pouvoir colonial", "Migration vers les colonies"], "correctIndex": 1 },
+      { "question": "Quel est le plus grand océan du monde ?", "options": ["Atlantique", "Indien", "Arctique", "Pacifique"], "correctIndex": 3 },
+      { "question": "Quelle organisation internationale a été créée après la 2e Guerre mondiale ?", "options": ["OTAN", "ONU", "Union Européenne", "FMI"], "correctIndex": 1 },
+      { "question": "Quelle est la capitale de la Chine ?", "options": ["Shanghai", "Hong Kong", "Pékin", "Guangzhou"], "correctIndex": 2 }
+    ],
+    "Économie": [
+      { "question": "Qu'est-ce que le développement durable ?", "options": ["Croissance économique sans limite", "Développement répondant aux besoins présents sans compromettre l'avenir", "Industrialisation rapide", "Exploitation maximale des ressources"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que l'IDH (Indice de Développement Humain) ?", "options": ["Mesure uniquement du PIB", "Mesure combinant revenu, éducation et santé", "Mesure de la croissance économique", "Mesure de l'inflation"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le protectionnisme ?", "options": ["Libre-échange total", "Protection de l'économie nationale par des barrières", "Privatisation des entreprises", "Aide aux pays pauvres"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'une multinationale ?", "options": ["Entreprise opérant dans un seul pays", "Entreprise opérant dans plusieurs pays", "Organisme gouvernemental international", "Banque centrale mondiale"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que l'investissement direct étranger (IDE) ?", "options": ["Achat d'actions en bourse", "Investissement d'une entreprise dans un autre pays", "Prêt entre gouvernements", "Aide humanitaire internationale"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la croissance économique ?", "options": ["Diminution du PIB", "Augmentation du PIB sur une période", "Stabilité des prix", "Réduction du chômage"], "correctIndex": 1 }
+    ]
+  },
+  "TSEXp": {
+    "Maths": [
+      { "question": "Quelle est la dérivée de f(x) = ln(x) ?", "options": ["f'(x) = 1/x²", "f'(x) = x", "f'(x) = 1/x", "f'(x) = ln(x)/x"], "correctIndex": 2 },
+      { "question": "Que vaut ∫₀¹ x dx ?", "options": ["0", "1/4", "1/2", "1"], "correctIndex": 2 },
+      { "question": "Quelle est la formule de la dérivée d'un produit f·g ?", "options": ["f'·g'", "f'·g + f·g'", "f·g' - f'·g", "f'·g - f·g'"], "correctIndex": 1 },
+      { "question": "Que vaut e⁰ ?", "options": ["0", "1", "e", "∞"], "correctIndex": 1 },
+      { "question": "Quelle est la formule générale d'une suite arithmétique ?", "options": ["Un = U0 × r^n", "Un = U0 + n×r", "Un = U0 + r^n", "Un = n × U0"], "correctIndex": 1 },
+      { "question": "Que vaut sin²(x) + cos²(x) ?", "options": ["0", "sin(2x)", "1", "2"], "correctIndex": 2 }
+    ],
+    "Physique": [
+      { "question": "Quelle est la loi de Coulomb ?", "options": ["F = G·m₁m₂/r²", "F = k·q₁q₂/r²", "F = ma", "F = qvB"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que l'induction électromagnétique ?", "options": ["Production de chaleur par courant", "Production de courant par variation de flux magnétique", "Résistance au courant", "Stockage d'énergie électrique"], "correctIndex": 1 },
+      { "question": "Quelle est la formule de la gravitation universelle ?", "options": ["F = ma", "F = G·m₁m₂/r²", "F = qE", "F = kx"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que l'énergie potentielle gravitationnelle ?", "options": ["Ep = ½mv²", "Ep = mgh", "Ep = ½kx²", "Ep = qU"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la capacité d'un condensateur ?", "options": ["C = U/Q", "C = Q/U", "C = Q×U", "C = U²/Q"], "correctIndex": 1 },
+      { "question": "Quelle est la formule de la force de Lorentz ?", "options": ["F = qE", "F = qvB", "F = q(E + v×B)", "F = ma"], "correctIndex": 2 }
+    ],
+    "Chimie": [
+      { "question": "Qu'est-ce que l'électronégativité ?", "options": ["Capacité à perdre des électrons", "Capacité à attirer des électrons dans une liaison", "Charge d'un ion", "Nombre d'électrons de valence"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'une réaction de saponification ?", "options": ["Hydrolyse d'un ester en milieu basique", "Oxydation d'un alcool", "Réduction d'un acide", "Estérification d'un alcool"], "correctIndex": 0 },
+      { "question": "Qu'est-ce que la chromatographie ?", "options": ["Technique de coloration", "Technique de séparation de mélanges", "Technique de synthèse", "Technique de mesure du pH"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'un polymère ?", "options": ["Petite molécule", "Macromolécule formée de monomères répétés", "Ion chargé positivement", "Atome radioactif"], "correctIndex": 1 },
+      { "question": "Quelle est la formule de l'éthanol ?", "options": ["CH3OH", "C2H5OH", "C3H7OH", "C4H9OH"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la distillation ?", "options": ["Séparation par filtration", "Séparation par différence de points d'ébullition", "Séparation par cristallisation", "Séparation par centrifugation"], "correctIndex": 1 }
+    ],
+    "SVT": [
+      { "question": "Qu'est-ce que la PCR (Polymerase Chain Reaction) ?", "options": ["Technique de séquençage", "Amplification d'ADN in vitro", "Technique d'électrophorèse", "Synthèse de protéines"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la régulation hormonale ?", "options": ["Contrôle nerveux des organes", "Contrôle chimique par des hormones", "Réponse immunitaire", "Activité enzymatique"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la biodiversité ?", "options": ["Diversité des habitats uniquement", "Variété du vivant à tous les niveaux", "Nombre d'espèces animales", "Distribution géographique des espèces"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'une enzyme ?", "options": ["Molécule d'ADN", "Catalyseur biologique protéique", "Hormone stéroïdienne", "Lipide membranaire"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la sélection naturelle ?", "options": ["Choix délibéré des individus", "Survie et reproduction des individus les mieux adaptés", "Mutation aléatoire", "Migration des espèces"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le génotype ?", "options": ["Apparence physique d'un organisme", "Constitution génétique d'un organisme", "Environnement de l'organisme", "Comportement de l'organisme"], "correctIndex": 1 }
+    ],
+    "Histoire-Géographie": [
+      { "question": "Qu'est-ce que la guerre froide ?", "options": ["Conflit militaire direct USA-URSS", "Rivalité idéologique et géopolitique USA-URSS", "Guerre en Arctique", "Conflit économique mondial"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la bipolarisation du monde ?", "options": ["Division en deux blocs antagonistes", "Alliance de tous les pays", "Domination d'un seul pays", "Neutralité de tous les pays"], "correctIndex": 0 },
+      { "question": "Qu'est-ce que la globalisation ?", "options": ["Isolement des économies", "Interconnexion croissante des économies mondiales", "Politique nationale fermée", "Système colonial"], "correctIndex": 1 },
+      { "question": "Quel est le rôle de l'ONU ?", "options": ["Gouverner le monde", "Maintenir la paix et la sécurité internationale", "Gérer l'économie mondiale", "Contrôler les armées nationales"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la transition démographique ?", "options": ["Augmentation constante de la population", "Passage d'une forte natalité/mortalité à une faible natalité/mortalité", "Migration massive", "Vieillissement uniquement"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le développement inégal ?", "options": ["Développement identique partout", "Disparités de développement entre pays et régions", "Croissance économique uniforme", "Égalité des revenus"], "correctIndex": 1 }
+    ],
+    "Économie": [
+      { "question": "Qu'est-ce que l'économie comportementale ?", "options": ["Étude des comportements animaux", "Étude des décisions économiques réelles des individus", "Économie des pays en développement", "Théorie des marchés parfaits"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que l'asymétrie d'information ?", "options": ["Information identique pour tous", "Situation où certains agents ont plus d'information que d'autres", "Absence totale d'information", "Information publique"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'une externalité ?", "options": ["Commerce extérieur", "Effet d'une activité économique sur des tiers non impliqués", "Investissement étranger", "Politique commerciale"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le PIB par habitant ?", "options": ["PIB total du pays", "PIB divisé par la population", "Revenu moyen des ménages", "Salaire minimum"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la politique budgétaire expansionniste ?", "options": ["Réduction des dépenses publiques", "Augmentation des dépenses publiques ou réduction des impôts", "Augmentation des impôts", "Réduction de la dette"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le marché du travail ?", "options": ["Lieu de vente de produits", "Rencontre entre offre et demande de travail", "Bourse des valeurs", "Marché financier"], "correctIndex": 1 }
+    ]
+  },
+  "SES": {
+    "Maths": [
+      { "question": "Qu'est-ce qu'une probabilité ?", "options": ["Certitude d'un événement", "Mesure de la chance qu'un événement se produise", "Nombre d'événements possibles", "Résultat d'une expérience"], "correctIndex": 1 },
+      { "question": "Que représente la médiane d'une série statistique ?", "options": ["La valeur la plus fréquente", "La valeur centrale qui partage la série en deux", "La moyenne arithmétique", "L'écart entre max et min"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la moyenne arithmétique ?", "options": ["Valeur la plus fréquente", "Somme des valeurs divisée par leur nombre", "Valeur centrale", "Valeur maximale"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'un diagramme circulaire (camembert) ?", "options": ["Représentation de l'évolution dans le temps", "Représentation des parts d'un tout", "Représentation de la corrélation", "Représentation des fréquences"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que l'écart-type ?", "options": ["Valeur maximale", "Mesure de la dispersion des données", "Valeur minimale", "Somme des données"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'un indice base 100 ?", "options": ["Valeur absolue d'une donnée", "Valeur relative par rapport à une référence fixée à 100", "Pourcentage de variation", "Taux de croissance"], "correctIndex": 1 }
+    ],
+    "Physique": [
+      { "question": "Qu'est-ce que l'énergie solaire ?", "options": ["Énergie nucléaire", "Énergie provenant du soleil", "Énergie du vent", "Énergie des marées"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'une énergie renouvelable ?", "options": ["Énergie qui s'épuise", "Énergie naturellement renouvelée", "Énergie fossile", "Énergie nucléaire"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que l'effet de serre ?", "options": ["Refroidissement de l'atmosphère", "Réchauffement de l'atmosphère par des gaz", "Trou dans la couche d'ozone", "Pollution de l'eau"], "correctIndex": 1 },
+      { "question": "Quelle est l'unité de mesure de l'énergie électrique consommée ?", "options": ["Watt", "Volt", "Kilowattheure", "Ampère"], "correctIndex": 2 },
+      { "question": "Qu'est-ce que la conductivité thermique ?", "options": ["Capacité à stocker la chaleur", "Capacité à transmettre la chaleur", "Capacité à réfléchir la chaleur", "Capacité à absorber la lumière"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'un circuit électrique en série ?", "options": ["Composants sur des branches parallèles", "Composants sur une seule branche", "Circuit sans résistance", "Circuit à courant alternatif"], "correctIndex": 1 }
+    ],
+    "Chimie": [
+      { "question": "Qu'est-ce qu'un atome ?", "options": ["La plus petite particule d'un élément", "Une molécule simple", "Un ion chargé", "Un composé chimique"], "correctIndex": 0 },
+      { "question": "Qu'est-ce qu'une molécule ?", "options": ["Un seul atome", "Assemblage d'atomes liés chimiquement", "Un ion", "Un électron libre"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'un mélange homogène ?", "options": ["Mélange avec phases visibles", "Mélange uniforme sans phases distinctes", "Mélange de solides", "Mélange de gaz"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la combustion ?", "options": ["Réaction avec l'eau", "Réaction avec l'oxygène produisant chaleur et lumière", "Réaction acide-base", "Dissolution dans l'eau"], "correctIndex": 1 },
+      { "question": "Quel est le symbole chimique du sodium ?", "options": ["So", "Sd", "Na", "Nm"], "correctIndex": 2 },
+      { "question": "Qu'est-ce qu'une solution saturée ?", "options": ["Solution très diluée", "Solution qui ne peut plus dissoudre de soluté", "Solution acide", "Solution basique"], "correctIndex": 1 }
+    ],
+    "SVT": [
+      { "question": "Qu'est-ce que l'écosystème ?", "options": ["Ensemble des êtres vivants uniquement", "Ensemble des êtres vivants et leur milieu", "Milieu physique uniquement", "Population d'une espèce"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la chaîne alimentaire ?", "options": ["Réseau commercial alimentaire", "Transfert d'énergie entre organismes", "Liste des aliments d'une espèce", "Cycle de l'eau"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la déforestation ?", "options": ["Plantation d'arbres", "Destruction des forêts", "Protection des forêts", "Gestion durable des forêts"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le réchauffement climatique ?", "options": ["Refroidissement global", "Augmentation de la température moyenne de la Terre", "Variation saisonnière normale", "Phénomène local uniquement"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la pollinisation ?", "options": ["Germination des graines", "Transport du pollen pour la reproduction végétale", "Croissance des racines", "Absorption d'eau par les plantes"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que l'empreinte écologique ?", "options": ["Surface forestière mondiale", "Mesure de l'impact humain sur les ressources naturelles", "Taille d'un écosystème", "Nombre d'espèces menacées"], "correctIndex": 1 }
+    ],
+    "Histoire-Géographie": [
+      { "question": "Qu'est-ce que l'urbanisation ?", "options": ["Exode rural uniquement", "Croissance de la population urbaine", "Construction de villes nouvelles", "Déclin des campagnes"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la migration ?", "options": ["Naissance dans un pays étranger", "Déplacement d'une population d'un lieu à un autre", "Retour dans son pays d'origine", "Tourisme international"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le développement durable ?", "options": ["Croissance économique maximale", "Développement qui répond aux besoins présents sans compromettre l'avenir", "Industrialisation rapide", "Conservation totale de la nature"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la mondialisation culturelle ?", "options": ["Disparition des cultures locales", "Diffusion et échanges culturels à l'échelle mondiale", "Domination d'une seule culture", "Isolement culturel"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'une métropole ?", "options": ["Petite ville", "Grande ville avec fonctions de commandement", "Capitale nationale uniquement", "Zone industrielle"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que les inégalités de développement ?", "options": ["Développement identique partout", "Disparités économiques et sociales entre pays", "Égalité des richesses", "Croissance uniforme"], "correctIndex": 1 }
+    ],
+    "Économie": [
+      { "question": "Qu'est-ce que la valeur ajoutée ?", "options": ["Prix de vente d'un produit", "Différence entre la valeur de la production et les consommations intermédiaires", "Bénéfice d'une entreprise", "Salaire des employés"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le salaire minimum ?", "options": ["Salaire le plus élevé", "Rémunération minimale légale", "Salaire moyen", "Salaire des fonctionnaires"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la fiscalité ?", "options": ["Politique monétaire", "Système de prélèvements obligatoires", "Politique commerciale", "Réglementation des entreprises"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la redistribution des revenus ?", "options": ["Augmentation des inégalités", "Transfert de revenus via impôts et prestations sociales", "Privatisation des services publics", "Réduction des salaires"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le pouvoir d'achat ?", "options": ["Revenu nominal", "Quantité de biens qu'on peut acheter avec son revenu", "Prix des produits", "Taux d'intérêt"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la protection sociale ?", "options": ["Police et sécurité", "Ensemble des mécanismes de protection contre les risques sociaux", "Armée nationale", "Justice et tribunaux"], "correctIndex": 1 }
+    ]
+  },
+  "Sciences": {
+    "Maths": [
+      { "question": "Quelle est la formule de la surface d'un cercle ?", "options": ["S = 2πr", "S = πr²", "S = πd", "S = 4πr²"], "correctIndex": 1 },
+      { "question": "Quelle est la formule du volume d'une sphère ?", "options": ["V = πr²h", "V = (4/3)πr³", "V = (2/3)πr³", "V = 4πr²"], "correctIndex": 1 },
+      { "question": "Que vaut 0! (factorielle zéro) ?", "options": ["0", "1", "∞", "Indéfini"], "correctIndex": 1 },
+      { "question": "Quelle est la formule du théorème de Pythagore ?", "options": ["a + b = c", "a² + b² = c²", "a × b = c²", "a² - b² = c²"], "correctIndex": 1 },
+      { "question": "Que vaut i² (nombre imaginaire) ?", "options": ["1", "-1", "i", "0"], "correctIndex": 1 },
+      { "question": "Quelle est la formule du binôme de Newton pour (a+b)² ?", "options": ["a² + b²", "a² + ab + b²", "a² + 2ab + b²", "2a² + 2b²"], "correctIndex": 2 }
+    ],
+    "Physique": [
+      { "question": "Qu'est-ce que la mécanique quantique ?", "options": ["Physique des objets macroscopiques", "Physique des particules subatomiques", "Physique des fluides", "Physique thermique"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le principe d'incertitude d'Heisenberg ?", "options": ["On peut mesurer position et vitesse exactement", "On ne peut pas mesurer simultanément position et quantité de mouvement avec précision", "L'énergie est toujours conservée", "La lumière est une onde"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la relativité restreinte ?", "options": ["Théorie de la gravité", "Théorie liée à la vitesse de la lumière comme limite", "Théorie des ondes", "Théorie quantique"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'un trou noir ?", "options": ["Étoile froide", "Région de l'espace avec gravité si forte que rien n'en échappe", "Nébuleuse sombre", "Planète sans lumière"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la supraconductivité ?", "options": ["Résistance électrique maximale", "Résistance électrique nulle à basse température", "Conductivité thermique élevée", "Magnétisme permanent"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le boson de Higgs ?", "options": ["Type d'onde électromagnétique", "Particule qui donne la masse aux autres particules", "Antimatière", "Quark lourd"], "correctIndex": 1 }
+    ],
+    "Chimie": [
+      { "question": "Qu'est-ce que la chimie verte ?", "options": ["Chimie des plantes uniquement", "Chimie respectueuse de l'environnement", "Chimie des colorants verts", "Chimie agricole"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la nanotechnologie ?", "options": ["Technologie des grands objets", "Manipulation de la matière à l'échelle nanométrique", "Technologie spatiale", "Biotechnologie"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la catalyse enzymatique ?", "options": ["Réaction sans enzyme", "Accélération d'une réaction par une enzyme", "Inhibition d'une réaction", "Dénaturation d'une protéine"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la spectroscopie ?", "options": ["Étude des spectres politiques", "Analyse de la matière par interaction avec le rayonnement", "Mesure de la température", "Étude des cristaux"], "correctIndex": 1 },
+      { "question": "Qu'est-ce qu'un fullerène ?", "options": ["Type de plastique", "Forme allotropique du carbone (C60)", "Composé organique", "Métal rare"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la chimie des matériaux ?", "options": ["Étude des matières premières", "Étude des propriétés et applications des matériaux", "Recyclage des déchets", "Extraction minière"], "correctIndex": 1 }
+    ],
+    "SVT": [
+      { "question": "Qu'est-ce que la génomique ?", "options": ["Étude d'un seul gène", "Étude de l'ensemble du génome", "Étude des protéines", "Étude des chromosomes uniquement"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que CRISPR-Cas9 ?", "options": ["Technique de clonage", "Outil d'édition du génome", "Méthode de séquençage", "Technique de PCR"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la bioinformatique ?", "options": ["Informatique pour les biologistes", "Analyse de données biologiques par l'informatique", "Robots biologiques", "Intelligence artificielle médicale"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la médecine personnalisée ?", "options": ["Médecine traditionnelle", "Traitement adapté au profil génétique du patient", "Médecine alternative", "Médecine préventive générale"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la biologie synthétique ?", "options": ["Étude des organismes naturels", "Conception et construction de nouveaux systèmes biologiques", "Biologie marine", "Étude des fossiles"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le microbiome humain ?", "options": ["Maladies microbiennes", "Ensemble des micro-organismes vivant dans/sur le corps humain", "Système immunitaire", "Flore intestinale uniquement"], "correctIndex": 1 }
+    ],
+    "Histoire-Géographie": [
+      { "question": "Qu'est-ce que la géopolitique ?", "options": ["Géographie physique", "Étude des relations entre géographie et politique", "Politique nationale", "Économie internationale"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la puissance mondiale ?", "options": ["Pays avec grande armée", "État ayant influence économique, militaire et culturelle mondiale", "Pays le plus peuplé", "Pays le plus riche"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le multilatéralisme ?", "options": ["Accord entre deux pays", "Coopération entre plusieurs pays", "Politique nationale isolationniste", "Alliance militaire"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la fracture numérique ?", "options": ["Panne informatique", "Inégalité d'accès aux technologies numériques", "Cybercriminalité", "Censure d'internet"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le soft power ?", "options": ["Puissance militaire", "Influence par la culture et les valeurs", "Puissance économique", "Diplomatie traditionnelle"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la gouvernance mondiale ?", "options": ["Gouvernement mondial unique", "Ensemble des mécanismes de régulation à l'échelle mondiale", "Domination d'un seul pays", "ONU uniquement"], "correctIndex": 1 }
+    ],
+    "Économie": [
+      { "question": "Qu'est-ce que l'économie numérique ?", "options": ["Économie basée sur les chiffres", "Économie basée sur les technologies numériques", "Économie des pays développés", "Finance internationale"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que l'intelligence artificielle en économie ?", "options": ["Robots industriels", "Utilisation d'algorithmes pour analyser et décider", "Automatisation simple", "Informatique de gestion"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que l'économie circulaire ?", "options": ["Économie mondiale", "Modèle économique visant à éliminer les déchets", "Cycle économique", "Rotation des stocks"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la finance verte ?", "options": ["Finance des pays tropicaux", "Financement de projets respectueux de l'environnement", "Bourse des matières premières", "Finance agricole"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que le revenu universel de base ?", "options": ["Salaire minimum", "Revenu versé à tous les citoyens sans condition", "Allocation chômage", "Retraite universelle"], "correctIndex": 1 },
+      { "question": "Qu'est-ce que la blockchain ?", "options": ["Type de logiciel", "Registre décentralisé et sécurisé de transactions", "Réseau social", "Monnaie physique"], "correctIndex": 1 }
+    ]
+  }
+}
