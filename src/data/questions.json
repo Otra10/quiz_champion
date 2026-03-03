@@ -1,140 +1,320 @@
 {
   "10e": {
-    "Maths": [
+    "Maths": [],
+    "Physique": [
       {
-        "question": "Un atome de carbone est dit asymétrique lorsqu'il :",
+        "question": "Le moment d'une force se calcule par :",
         "options": [
-          "Est lié à deux atomes identiques",
-          "Est lié à quatre atomes ou groupes différents",
-          "Possède une double liaison",
-          "Est lié à un atome d'oxygène"
+          "M = F + d",
+          "M = F x d",
+          "M = F / d",
+          "M = F - d"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Deux molécules images l'une de l'autre dans un miroir et non superposables sont appelées :",
+        "question": "L'unité du moment d'une force est :",
         "options": [
-          "Isomères de position",
-          "Diastéréoisomères",
-          "Énantiomères",
-          "Isomères de fonction"
+          "Newton (N)",
+          "Joule (J)",
+          "Newton-metre (N.m)",
+          "Watt (W)"
         ],
         "correctIndex": 2
       },
       {
-        "question": "La fonction alcool est caractérisée par le groupe :",
+        "question": "Si la distance au pivot double, le moment :",
         "options": [
-          "COOH",
-          "NH2",
-          "OH",
-          "CHO"
+          "Diminue",
+          "Reste constant",
+          "Double",
+          "Devient nul"
         ],
         "correctIndex": 2
       },
       {
-        "question": "Une amine primaire a pour formule générale :",
+        "question": "Le moment d'une force est nul lorsque :",
         "options": [
-          "R-NH2",
-          "R2NH",
-          "R3N",
-          "R-COOH"
+          "La force est grande",
+          "La distance est grande",
+          "La ligne d'action passe par le pivot",
+          "La force est verticale"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Une porte s'ouvre plus facilement si on pousse :",
+        "options": [
+          "Près des gonds",
+          "Au milieu",
+          "Loin des gonds",
+          "En haut seulement"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "La cinématique étudie :",
+        "options": [
+          "Les forces",
+          "Le mouvement sans les causes",
+          "L'énergie",
+          "La pression"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "La vitesse moyenne est donnée par :",
+        "options": [
+          "v = d x t",
+          "v = d / t",
+          "v = d + t",
+          "v = t / d"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le mouvement rectiligne uniforme signifie :",
+        "options": [
+          "Vitesse variable",
+          "Accélération constante",
+          "Vitesse constante",
+          "Mouvement circulaire"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "L'unité de la vitesse est :",
+        "options": [
+          "m",
+          "s",
+          "m/s",
+          "N"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Si la vitesse augmente, le mouvement est :",
+        "options": [
+          "Uniforme",
+          "Accéléré",
+          "Ralenti",
+          "Immobile"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Une force peut :",
+        "options": [
+          "Changer la couleur d'un objet",
+          "Modifier le mouvement",
+          "Changer la masse",
+          "Supprimer le poids"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le poids d'un objet est :",
+        "options": [
+          "Une énergie",
+          "Une force",
+          "Une vitesse",
+          "Une masse"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le poids agit :",
+        "options": [
+          "Vers le haut",
+          "Horizontalement",
+          "Vers le bas",
+          "Dans tous les sens"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "L'unité d'une force est :",
+        "options": [
+          "kg",
+          "N",
+          "m/s",
+          "J"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Si la somme des forces est nulle :",
+        "options": [
+          "L'objet accélère",
+          "L'objet change de direction",
+          "L'objet est en équilibre",
+          "L'objet disparaît"
+        ],
+        "correctIndex": 2
+      }
+    ],
+    "Chimie": [
+      {
+        "question": "Une réaction chimique est :",
+        "options": [
+          "Un changement d'état",
+          "Une transformation où de nouvelles substances se forment",
+          "Une dissolution",
+          "Une fusion"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Lors d'une réaction chimique, la masse totale :",
+        "options": [
+          "Diminue",
+          "Augmente",
+          "Se conserve",
+          "Disparaît"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "La combustion est :",
+        "options": [
+          "Une réaction avec l'oxygène",
+          "Une réaction avec l'eau",
+          "Une dissolution",
+          "Une fusion"
         ],
         "correctIndex": 0
       },
       {
-        "question": "La formule générale d'un acide carboxylique est :",
+        "question": "Les réactifs sont :",
         "options": [
-          "R-OH",
-          "R-COOH",
-          "R-NH2",
-          "R-CHO"
+          "Les substances formées",
+          "Les substances consommées",
+          "Les gaz produits",
+          "Les solides formés"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Le glucose appartient à la famille des :",
+        "question": "Une liaison ionique se forme par :",
         "options": [
-          "Lipides",
-          "Protides",
-          "Glucides",
-          "Polymères synthétiques"
+          "Partage d'électrons",
+          "Transfert d'électrons",
+          "Fusion nucléaire",
+          "Dissolution"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Une liaison covalente se forme par :",
+        "options": [
+          "Transfert d'électrons",
+          "Perte d'électrons",
+          "Partage d'électrons",
+          "Ionisation"
         ],
         "correctIndex": 2
       },
       {
-        "question": "Un polymère est :",
+        "question": "Le sodium (Na) a tendance à :",
         "options": [
-          "Une petite molécule simple",
-          "Une molécule formée par l'assemblage répété de petites unités appelées monomères",
-          "Un alcool complexe",
-          "Un sel minéral"
+          "Gagner 1 électron",
+          "Perdre 1 électron",
+          "Partager 4 électrons",
+          "Ne rien faire"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "L'eau (H2O) possède des liaisons :",
+        "options": [
+          "Ionique",
+          "Métallique",
+          "Covalente",
+          "Nucléaire"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "La plus petite partie d'un élément chimique est :",
+        "options": [
+          "La molécule",
+          "L'atome",
+          "L'ion",
+          "Le noyau"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le noyau contient :",
+        "options": [
+          "Électrons et protons",
+          "Protons et neutrons",
+          "Neutrons et électrons",
+          "Seulement des électrons"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Les électrons sont chargés :",
+        "options": [
+          "Positivement",
+          "Négativement",
+          "Neutrement",
+          "Doublement positifs"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le numéro atomique correspond au nombre de :",
+        "options": [
+          "Neutrons",
+          "Protons",
+          "Électrons",
+          "Molécules"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Les éléments sont classés dans le tableau périodique selon :",
+        "options": [
+          "Leur masse",
+          "Leur numéro atomique",
+          "Leur couleur",
+          "Leur densité"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Les éléments d'une même colonne ont :",
+        "options": [
+          "Le même nombre de couches électroniques",
+          "Les mêmes propriétés chimiques",
+          "Le même nombre de neutrons",
+          "La même masse"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le chlore (Cl) appartient à la famille des :",
+        "options": [
+          "Gaz nobles",
+          "Alcalins",
+          "Halogènes",
+          "Métaux de transition"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Les gaz nobles sont situés :",
+        "options": [
+          "Première colonne",
+          "Dernière colonne",
+          "Au centre",
+          "En bas seulement"
         ],
         "correctIndex": 1
       }
     ],
-    "Physique": [
-      {
-        "question": "Quelle est l'unité de la force dans le système international ?",
-        "options": [
-          "Joule",
-          "Newton",
-          "Pascal",
-          "Watt"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Quelle est la vitesse de la lumière dans le vide ?",
-        "options": [
-          "200 000 km/s",
-          "250 000 km/s",
-          "300 000 km/s",
-          "350 000 km/s"
-        ],
-        "correctIndex": 2
-      },
-      {
-        "question": "Quelle formule représente la vitesse ?",
-        "options": [
-          "v = m × a",
-          "v = d / t",
-          "v = F / m",
-          "v = P × t"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "L'eau bout à quelle température à pression atmosphérique normale ?",
-        "options": [
-          "90°C",
-          "95°C",
-          "100°C",
-          "105°C"
-        ],
-        "correctIndex": 2
-      },
-      {
-        "question": "Quelle est l'unité de la pression ?",
-        "options": [
-          "Newton",
-          "Joule",
-          "Pascal",
-          "Ampère"
-        ],
-        "correctIndex": 2
-      },
-      {
-        "question": "Quel instrument mesure la température ?",
-        "options": [
-          "Baromètre",
-          "Thermomètre",
-          "Voltmètre",
-          "Ampèremètre"
-        ],
-        "correctIndex": 1
-      }
-    ],
-    "Chimie": [],
     "SVT": [
       {
         "question": "Quel organe pompe le sang dans le corps humain ?",
@@ -199,124 +379,254 @@
     ],
     "Histoire-Géographie": [
       {
-        "question": "En quelle année a eu lieu la Première Guerre mondiale ?",
+        "question": "L'histoire est une science qui explique et interprete :",
         "options": [
-          "1912-1916",
-          "1914-1918",
-          "1916-1920",
-          "1918-1922"
+          "Les manifestations et les soulevements",
+          "La memoire collective d'une famille",
+          "Les faits passes de l'invention de l'ecriture a nos jours",
+          "Les evenements futurs"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "L'histoire se subdivise en :",
+        "options": [
+          "Trois periodes (le temps, la duree et l'ere)",
+          "Quatre periodes (l'antiquite, le moyen-age, les temps modernes et l'epoque contemporaine)",
+          "Trois periodes (le paleolithique, le neolithique et le mesolithique)",
+          "Deux periodes (la prehistoire et l'histoire)"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Quel est le plus grand pays du monde en superficie ?",
+        "question": "La plus ancienne et longue periode de la prehistoire est :",
         "options": [
-          "Canada",
-          "Chine",
-          "États-Unis",
-          "Russie"
-        ],
-        "correctIndex": 3
-      },
-      {
-        "question": "Quelle est la capitale de la France ?",
-        "options": [
-          "Lyon",
-          "Marseille",
-          "Paris",
-          "Bordeaux"
+          "Le mesolithique",
+          "Le neolithique ou l'age de la pierre polie",
+          "Le paleolithique ou l'age de la pierre taillee",
+          "L'age du bronze"
         ],
         "correctIndex": 2
       },
       {
-        "question": "Quel fleuve traverse l'Égypte ?",
+        "question": "Le plus ancien ossement humain connu a ete decouvert :",
         "options": [
-          "Congo",
-          "Niger",
-          "Nil",
-          "Zambèze"
-        ],
-        "correctIndex": 2
-      },
-      {
-        "question": "En quelle année Christophe Colomb a-t-il découvert l'Amérique ?",
-        "options": [
-          "1488",
-          "1490",
-          "1492",
-          "1494"
-        ],
-        "correctIndex": 2
-      },
-      {
-        "question": "Quel continent est le plus peuplé ?",
-        "options": [
-          "Afrique",
-          "Asie",
-          "Europe",
-          "Amérique"
-        ],
-        "correctIndex": 1
-      }
-    ],
-    "Économie": [
-      {
-        "question": "Qu'est-ce que le PIB ?",
-        "options": [
-          "Produit Interne Brut",
-          "Prix Indicatif de Base",
-          "Profit Industriel Brut",
-          "Plan d'Investissement Bancaire"
+          "En 2001 au Tchad",
+          "En 2025 au Burkina Faso",
+          "En Birmanie en 1990",
+          "En Ethiopie en 1974"
         ],
         "correctIndex": 0
       },
       {
-        "question": "Qu'est-ce que l'inflation ?",
+        "question": "Les principales decouvertes du neolithique sont :",
         "options": [
-          "Baisse générale des prix",
-          "Hausse générale des prix",
-          "Stabilité des prix",
-          "Baisse du chômage"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce qu'un budget équilibré ?",
-        "options": [
-          "Recettes > Dépenses",
-          "Recettes < Dépenses",
-          "Recettes = Dépenses",
-          "Aucune dépense"
+          "La musique, la litterature et la geographie",
+          "Le balafon, la pirogue et l'industrialisation",
+          "Le polissage de la pierre, la ceramique, l'artisanat, l'agriculture et l'elevage",
+          "L'ecriture, la roue et la monnaie"
         ],
         "correctIndex": 2
       },
       {
-        "question": "Quel est le rôle d'une banque centrale ?",
+        "question": "On distingue trois zones de repartition de la population mondiale qui sont :",
         "options": [
-          "Vendre des produits",
-          "Gérer la politique monétaire",
-          "Produire des biens",
-          "Collecter les impôts"
+          "Les zones mixtes, homogenes et heterogenes",
+          "Les zones fortement, moyennement et faiblement peuplees",
+          "Les plateaux, les montagnes et les cuvettes",
+          "Les zones urbaines, rurales et desertiques"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que le chômage ?",
+        "question": "Les facteurs de l'inegale repartition de la population sont :",
         "options": [
-          "Travailler à temps partiel",
-          "Être sans emploi et en chercher un",
-          "Être à la retraite",
-          "Travailler au noir"
+          "Facteurs internes et externes",
+          "Facteurs geographique, economique, historique et politique",
+          "Pluviometriques et littoraux",
+          "Culturels et religieux uniquement"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que l'offre et la demande ?",
+        "question": "Selon la nature de l'industrie, il existe :",
         "options": [
-          "Un système fiscal",
-          "Un mécanisme de fixation des prix",
-          "Une loi gouvernementale",
-          "Un type de contrat"
+          "2 secteurs d'activite (le menage et le jardinage)",
+          "4 secteurs d'activite (maconnerie, plomberie, restauration et bureautique)",
+          "3 secteurs d'activite (le primaire, le secondaire et le tertiaire)",
+          "5 secteurs d'activite"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Le P.I.B signifie :",
+        "options": [
+          "Production de l'image en Brainstorming",
+          "Produit international bleu",
+          "Produit interieur brut",
+          "Plan d'investissement bancaire"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "L'I.D.H veut dire :",
+        "options": [
+          "Indicateur direct de l'homme",
+          "Indicateur demographique de l'humanite",
+          "Indice de developpement humain",
+          "Indice de distribution des habitants"
+        ],
+        "correctIndex": 2
+      }
+    ],
+    "Économie": [
+      {
+        "question": "L'economie est :",
+        "options": [
+          "L'etude des phenomenes naturels",
+          "L'etude de la gestion des ressources rares pour satisfaire les besoins",
+          "L'etude des relations internationales",
+          "L'etude des lois juridiques"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Une branche d'activite est :",
+        "options": [
+          "Un regroupement d'entreprises produisant le meme type de produit",
+          "Un ensemble de banques",
+          "Une organisation internationale",
+          "Une categorie de consommateurs"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "La population active comprend :",
+        "options": [
+          "Tous les habitants d'un pays",
+          "Les enfants et les personnes agees",
+          "Les personnes en age de travailler qui ont un emploi ou en cherchent un",
+          "Seulement les fonctionnaires"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Un agent economique est :",
+        "options": [
+          "Une personne qui surveille les marches",
+          "Un acteur qui participe a l'activite economique (menage, entreprise, Etat...)",
+          "Un policier economique",
+          "Un commercant uniquement"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Une personne morale est :",
+        "options": [
+          "Une personne physique majeure",
+          "Une organisation reconnue par la loi (entreprise, Etat, association)",
+          "Un enfant mineur",
+          "Un salarie"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Un besoin substituable est :",
+        "options": [
+          "Un besoin vital",
+          "Un besoin que l'on peut remplacer par un autre",
+          "Un besoin obligatoire",
+          "Un besoin collectif"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Un besoin primaire est :",
+        "options": [
+          "Un besoin de luxe",
+          "Un besoin indispensable a la survie (se nourrir, se loger)",
+          "Un besoin de divertissement",
+          "Un besoin professionnel"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Un besoin tertiaire est :",
+        "options": [
+          "Un besoin de luxe ou de confort avance",
+          "Un besoin vital",
+          "Un besoin naturel",
+          "Un besoin administratif"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Un service est :",
+        "options": [
+          "Un bien materiel que l'on peut toucher",
+          "Une activite immaterielle qui satisfait un besoin",
+          "Un produit agricole",
+          "Un objet industriel"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Un bien economique est :",
+        "options": [
+          "Un bien gratuit et illimite",
+          "Un bien rare qui a un cout et satisfait un besoin",
+          "Un bien naturel sans valeur",
+          "Un service public uniquement"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "La famille nucleaire est :",
+        "options": [
+          "Une famille composee uniquement des grands-parents",
+          "Une famille composee des parents et de leurs enfants",
+          "Une famille elargie avec oncles et cousins",
+          "Une famille polygame uniquement"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "L'extraction de petrole appartient au :",
+        "options": [
+          "Secteur secondaire",
+          "Secteur tertiaire",
+          "Secteur primaire",
+          "Secteur public"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Le transport appartient au :",
+        "options": [
+          "Secteur primaire",
+          "Secteur secondaire",
+          "Secteur tertiaire",
+          "Secteur agricole"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "La fonction principale des menages est :",
+        "options": [
+          "Produire des biens industriels",
+          "Consommer des biens et services",
+          "Creer la monnaie",
+          "Collecter les impots"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Une administration publique est par exemple :",
+        "options": [
+          "Une entreprise privee",
+          "Un ministere",
+          "Une banque commerciale",
+          "Une societe d'import-export"
         ],
         "correctIndex": 1
       }
@@ -761,62 +1071,72 @@
     ],
     "Physique": [
       {
-        "question": "Quelle est la formule de la puissance électrique ?",
+        "question": "Dans le mouvement d'un projectile sans frottement, la trajectoire est :",
         "options": [
-          "P = U/I",
-          "P = U+I",
-          "P = U×I",
-          "P = U²/I"
+          "Rectiligne",
+          "Circulaire",
+          "Parabolique",
+          "Sinusoïdale"
         ],
         "correctIndex": 2
       },
       {
-        "question": "Qu'est-ce que l'effet photoélectrique ?",
+        "question": "Dans un champ de pesanteur uniforme, l'accélération du projectile est :",
         "options": [
-          "Émission de lumière par un métal",
-          "Émission d'électrons par un métal éclairé",
-          "Absorption de lumière",
-          "Réflexion de lumière"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Quelle est la relation d'Einstein énergie-masse ?",
-        "options": [
-          "E = mc",
-          "E = mc²",
-          "E = m/c²",
-          "E = m²c"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce que la radioactivité ?",
-        "options": [
-          "Émission de lumière visible",
-          "Désintégration spontanée de noyaux instables",
-          "Réaction chimique exothermique",
-          "Fusion de noyaux atomiques"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Quelle est l'unité de la fréquence ?",
-        "options": [
-          "Mètre",
-          "Seconde",
-          "Hertz",
-          "Watt"
+          "Horizontale",
+          "Verticale vers le haut",
+          "Verticale vers le bas",
+          "Nulle"
         ],
         "correctIndex": 2
       },
       {
-        "question": "Qu'est-ce qu'un champ magnétique ?",
+        "question": "Une particule chargée entrant perpendiculairement dans un champ magnétique uniforme a un mouvement :",
         "options": [
-          "Force électrique",
-          "Région où s'exercent des forces magnétiques",
-          "Courant électrique",
-          "Résistance électrique"
+          "Rectiligne uniforme",
+          "Circulaire uniforme",
+          "Parabolique",
+          "Rectiligne accéléré"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "La force exercée sur une charge q dans un champ électrique E est :",
+        "options": [
+          "F = q + E",
+          "F = qE",
+          "F = E/q",
+          "F = q²E"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Un satellite en orbite circulaire autour de la Terre est soumis principalement :",
+        "options": [
+          "A la force magnétique terrestre",
+          "A la force électrique",
+          "A la force de frottement",
+          "A la force d'attraction gravitationnelle"
+        ],
+        "correctIndex": 3
+      },
+      {
+        "question": "Le phénomène d'induction électromagnétique apparaît lorsqu'il y a :",
+        "options": [
+          "Variation du champ magnétique à travers un circuit",
+          "Augmentation de la résistance",
+          "Présence d'une pile",
+          "Absence de courant"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "L'auto-induction est un phénomène par lequel :",
+        "options": [
+          "Un circuit crée un champ électrique constant",
+          "Une variation du courant dans un circuit induit une f.e.m. dans ce même circuit",
+          "Deux circuits échangent de l'énergie thermique",
+          "Un aimant perd son champ magnétique"
         ],
         "correctIndex": 1
       }
@@ -957,64 +1277,154 @@
     ],
     "Histoire-Géographie": [
       {
-        "question": "Qu'est-ce que la colonisation ?",
+        "question": "L'economie est :",
         "options": [
-          "Échange commercial équitable",
-          "Domination politique et économique d'un territoire",
-          "Alliance militaire",
-          "Migration volontaire"
+          "L'etude des phenomenes naturels",
+          "L'etude de la gestion des ressources rares pour satisfaire les besoins",
+          "L'etude des relations internationales",
+          "L'etude des lois juridiques"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Quand a eu lieu la Seconde Guerre mondiale ?",
+        "question": "Une branche d'activite est :",
         "options": [
-          "1935-1943",
-          "1939-1945",
-          "1940-1946",
-          "1941-1947"
+          "Un regroupement d'entreprises produisant le meme type de produit",
+          "Un ensemble de banques",
+          "Une organisation internationale",
+          "Une categorie de consommateurs"
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
-        "question": "Qu'est-ce que la décolonisation ?",
+        "question": "La population active comprend :",
         "options": [
-          "Conquête de nouveaux territoires",
-          "Accession à l'indépendance des colonies",
-          "Renforcement du pouvoir colonial",
-          "Migration vers les colonies"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Quel est le plus grand océan du monde ?",
-        "options": [
-          "Atlantique",
-          "Indien",
-          "Arctique",
-          "Pacifique"
-        ],
-        "correctIndex": 3
-      },
-      {
-        "question": "Quelle organisation internationale a été créée après la 2e Guerre mondiale ?",
-        "options": [
-          "OTAN",
-          "ONU",
-          "Union Européenne",
-          "FMI"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Quelle est la capitale de la Chine ?",
-        "options": [
-          "Shanghai",
-          "Hong Kong",
-          "Pékin",
-          "Guangzhou"
+          "Tous les habitants d'un pays",
+          "Les enfants et les personnes agees",
+          "Les personnes en age de travailler qui ont un emploi ou en cherchent un",
+          "Seulement les fonctionnaires"
         ],
         "correctIndex": 2
+      },
+      {
+        "question": "Un agent economique est :",
+        "options": [
+          "Une personne qui surveille les marches",
+          "Un acteur qui participe a l'activite economique (menage, entreprise, Etat...)",
+          "Un policier economique",
+          "Un commercant uniquement"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Une personne morale est :",
+        "options": [
+          "Une personne physique majeure",
+          "Une organisation reconnue par la loi (entreprise, Etat, association)",
+          "Un enfant mineur",
+          "Un salarie"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Un besoin substituable est :",
+        "options": [
+          "Un besoin vital",
+          "Un besoin que l'on peut remplacer par un autre",
+          "Un besoin obligatoire",
+          "Un besoin collectif"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Un besoin primaire est :",
+        "options": [
+          "Un besoin de luxe",
+          "Un besoin indispensable a la survie (se nourrir, se loger)",
+          "Un besoin de divertissement",
+          "Un besoin professionnel"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Un besoin tertiaire est :",
+        "options": [
+          "Un besoin de luxe ou de confort avance",
+          "Un besoin vital",
+          "Un besoin naturel",
+          "Un besoin administratif"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Un service est :",
+        "options": [
+          "Un bien materiel que l'on peut toucher",
+          "Une activite immaterielle qui satisfait un besoin",
+          "Un produit agricole",
+          "Un objet industriel"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Un bien economique est :",
+        "options": [
+          "Un bien gratuit et illimite",
+          "Un bien rare qui a un cout et satisfait un besoin",
+          "Un bien naturel sans valeur",
+          "Un service public uniquement"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "La famille nucleaire est :",
+        "options": [
+          "Une famille composee uniquement des grands-parents",
+          "Une famille composee des parents et de leurs enfants",
+          "Une famille elargie avec oncles et cousins",
+          "Une famille polygame uniquement"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "L'extraction de petrole appartient au :",
+        "options": [
+          "Secteur secondaire",
+          "Secteur tertiaire",
+          "Secteur primaire",
+          "Secteur public"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Le transport appartient au :",
+        "options": [
+          "Secteur primaire",
+          "Secteur secondaire",
+          "Secteur tertiaire",
+          "Secteur agricole"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "La fonction principale des menages est :",
+        "options": [
+          "Produire des biens industriels",
+          "Consommer des biens et services",
+          "Creer la monnaie",
+          "Collecter les impots"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Une administration publique est par exemple :",
+        "options": [
+          "Une entreprise privee",
+          "Un ministere",
+          "Une banque commerciale",
+          "Une societe d'import-export"
+        ],
+        "correctIndex": 1
       }
     ],
     "Économie": [
@@ -1145,64 +1555,74 @@
     ],
     "Physique": [
       {
-        "question": "Quelle est la loi de Coulomb ?",
+        "question": "Dans le mouvement d'un projectile sans frottement, la trajectoire est :",
         "options": [
-          "F = G·m₁m₂/r²",
-          "F = k·q₁q₂/r²",
-          "F = ma",
-          "F = qvB"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce que l'induction électromagnétique ?",
-        "options": [
-          "Production de chaleur par courant",
-          "Production de courant par variation de flux magnétique",
-          "Résistance au courant",
-          "Stockage d'énergie électrique"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Quelle est la formule de la gravitation universelle ?",
-        "options": [
-          "F = ma",
-          "F = G·m₁m₂/r²",
-          "F = qE",
-          "F = kx"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce que l'énergie potentielle gravitationnelle ?",
-        "options": [
-          "Ep = ½mv²",
-          "Ep = mgh",
-          "Ep = ½kx²",
-          "Ep = qU"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce que la capacité d'un condensateur ?",
-        "options": [
-          "C = U/Q",
-          "C = Q/U",
-          "C = Q×U",
-          "C = U²/Q"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Quelle est la formule de la force de Lorentz ?",
-        "options": [
-          "F = qE",
-          "F = qvB",
-          "F = q(E + v×B)",
-          "F = ma"
+          "Rectiligne",
+          "Circulaire",
+          "Parabolique",
+          "Sinusoïdale"
         ],
         "correctIndex": 2
+      },
+      {
+        "question": "Dans un champ de pesanteur uniforme, l'accélération du projectile est :",
+        "options": [
+          "Horizontale",
+          "Verticale vers le haut",
+          "Verticale vers le bas",
+          "Nulle"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Une particule chargée entrant perpendiculairement dans un champ magnétique uniforme a un mouvement :",
+        "options": [
+          "Rectiligne uniforme",
+          "Circulaire uniforme",
+          "Parabolique",
+          "Rectiligne accéléré"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "La force exercée sur une charge q dans un champ électrique E est :",
+        "options": [
+          "F = q + E",
+          "F = qE",
+          "F = E/q",
+          "F = q²E"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Un satellite en orbite circulaire autour de la Terre est soumis principalement :",
+        "options": [
+          "A la force magnétique terrestre",
+          "A la force électrique",
+          "A la force de frottement",
+          "A la force d'attraction gravitationnelle"
+        ],
+        "correctIndex": 3
+      },
+      {
+        "question": "Le phénomène d'induction électromagnétique apparaît lorsqu'il y a :",
+        "options": [
+          "Variation du champ magnétique à travers un circuit",
+          "Augmentation de la résistance",
+          "Présence d'une pile",
+          "Absence de courant"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "L'auto-induction est un phénomène par lequel :",
+        "options": [
+          "Un circuit crée un champ électrique constant",
+          "Une variation du courant dans un circuit induit une f.e.m. dans ce même circuit",
+          "Deux circuits échangent de l'énergie thermique",
+          "Un aimant perd son champ magnétique"
+        ],
+        "correctIndex": 1
       }
     ],
     "Chimie": [
@@ -1591,64 +2011,74 @@
     ],
     "Chimie": [
       {
-        "question": "Qu'est-ce qu'un atome ?",
+        "question": "La formule générale des alcanes est :",
         "options": [
-          "La plus petite particule d'un élément",
-          "Une molécule simple",
-          "Un ion chargé",
-          "Un composé chimique"
-        ],
-        "correctIndex": 0
-      },
-      {
-        "question": "Qu'est-ce qu'une molécule ?",
-        "options": [
-          "Un seul atome",
-          "Assemblage d'atomes liés chimiquement",
-          "Un ion",
-          "Un électron libre"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce qu'un mélange homogène ?",
-        "options": [
-          "Mélange avec phases visibles",
-          "Mélange uniforme sans phases distinctes",
-          "Mélange de solides",
-          "Mélange de gaz"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce que la combustion ?",
-        "options": [
-          "Réaction avec l'eau",
-          "Réaction avec l'oxygène produisant chaleur et lumière",
-          "Réaction acide-base",
-          "Dissolution dans l'eau"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Quel est le symbole chimique du sodium ?",
-        "options": [
-          "So",
-          "Sd",
-          "Na",
-          "Nm"
+          "CnH2n",
+          "CnH2n-2",
+          "CnH2n+2",
+          "CnHn"
         ],
         "correctIndex": 2
       },
       {
-        "question": "Qu'est-ce qu'une solution saturée ?",
+        "question": "Un hydrocarbure est dit saturé lorsqu'il :",
         "options": [
-          "Solution très diluée",
-          "Solution qui ne peut plus dissoudre de soluté",
-          "Solution acide",
-          "Solution basique"
+          "Contient au moins une double liaison",
+          "Contient au moins une triple liaison",
+          "Ne contient que des liaisons simples",
+          "Contient un cycle"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Quelle est la particularité des alcènes ?",
+        "options": [
+          "Triple liaison",
+          "Double liaison",
+          "Hydrocarbures saturés",
+          "Liaisons simples uniquement"
         ],
         "correctIndex": 1
+      },
+      {
+        "question": "La formule générale des alcynes est :",
+        "options": [
+          "CnH2n+2",
+          "CnH2n",
+          "CnH2n-2",
+          "CnHn"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Deux molécules sont isomères plans lorsqu'elles :",
+        "options": [
+          "Ont la même formule brute mais des structures différentes",
+          "Ont la même structure",
+          "Ont des masses différentes",
+          "Ont les mêmes propriétés"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Exemple d'isomérie de chaîne :",
+        "options": [
+          "Butane et 2-méthylpropane",
+          "Éthane et éthène",
+          "Éthène et éthyne",
+          "Propane et propène"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Nom de CH3-CH=CH2 :",
+        "options": [
+          "Propane",
+          "Propyne",
+          "Propène",
+          "Propanol"
+        ],
+        "correctIndex": 2
       }
     ],
     "SVT": [
@@ -1715,64 +2145,104 @@
     ],
     "Histoire-Géographie": [
       {
-        "question": "Qu'est-ce que l'urbanisation ?",
+        "question": "Les conditions favorables des progres scientifiques et techniques sont :",
         "options": [
-          "Exode rural uniquement",
-          "Croissance de la population urbaine",
-          "Construction de villes nouvelles",
-          "Déclin des campagnes"
+          "Le polytheisme pur et simple",
+          "La croissance demographique et le baby-boom",
+          "La curiosite scientifique, l'encouragement a la recherche et les moyens d'action accrue",
+          "Aucune de ces reponses"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "En 1849, FRESNEL demontre en physique que la lumiere est un phenomene :",
+        "options": [
+          "Vibratoire",
+          "Naturel",
+          "Secondaire",
+          "Aleatoire"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "En biologie et medecine, LOUIS PASTEUR demontre en 1862 :",
+        "options": [
+          "La microbiologie",
+          "La theorie de l'heredite",
+          "La microscopie",
+          "La genetique"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "La loi de conservation de masse est attribuee a :",
+        "options": [
+          "Pierre Curie",
+          "Marcelin Berthelot",
+          "Antoine L. Lavoisier",
+          "Albert Einstein"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "La decouverte de la structure de l'ADN est realisee grace aux :",
+        "options": [
+          "Progres techniques",
+          "Progres scientifiques",
+          "Realisations philosophiques",
+          "Avancees politiques"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que la migration ?",
+        "question": "Les principales formes du relief africain sont :",
         "options": [
-          "Naissance dans un pays étranger",
-          "Déplacement d'une population d'un lieu à un autre",
-          "Retour dans son pays d'origine",
-          "Tourisme international"
+          "L'agriculture, l'elevage et la peche",
+          "Les arbres, les herbes et les animaux",
+          "Les montagnes, les plateaux, les plaines, les cuvettes et les fosses d'effondrement",
+          "Les volcans et les glaciers"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "La hauteur du mont Kilimandjaro est de :",
+        "options": [
+          "22 000 m",
+          "4 600 m",
+          "5 963 m",
+          "8 848 m"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Le barrage d'Assouan sur le Nil a pour objectif principal :",
+        "options": [
+          "D'augmenter la navigation maritime",
+          "De controler les crues et produire de l'electricite",
+          "De detourner le fleuve",
+          "De creer une reserve naturelle"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que le développement durable ?",
+        "question": "Le plus vaste lac en Afrique est le lac :",
         "options": [
-          "Croissance économique maximale",
-          "Développement qui répond aux besoins présents sans compromettre l'avenir",
-          "Industrialisation rapide",
-          "Conservation totale de la nature"
+          "Victoria",
+          "Tchad",
+          "Tanganyika",
+          "Malawi"
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
-        "question": "Qu'est-ce que la mondialisation culturelle ?",
+        "question": "Le Mali est arrose par deux principaux fleuves, il s'agit :",
         "options": [
-          "Disparition des cultures locales",
-          "Diffusion et échanges culturels à l'échelle mondiale",
-          "Domination d'une seule culture",
-          "Isolement culturel"
+          "Du Zambeze et du Senegal",
+          "Du Congo et du Milo",
+          "Du Niger et du Senegal",
+          "Du Nil et du Volta"
         ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce qu'une métropole ?",
-        "options": [
-          "Petite ville",
-          "Grande ville avec fonctions de commandement",
-          "Capitale nationale uniquement",
-          "Zone industrielle"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce que les inégalités de développement ?",
-        "options": [
-          "Développement identique partout",
-          "Disparités économiques et sociales entre pays",
-          "Égalité des richesses",
-          "Croissance uniforme"
-        ],
-        "correctIndex": 1
+        "correctIndex": 2
       }
     ],
     "Économie": [
@@ -1903,126 +2373,146 @@
     ],
     "Physique": [
       {
-        "question": "Qu'est-ce que la mécanique quantique ?",
+        "question": "Le champ gravitationnel créé par une masse ponctuelle M à une distance r est :",
         "options": [
-          "Physique des objets macroscopiques",
-          "Physique des particules subatomiques",
-          "Physique des fluides",
-          "Physique thermique"
+          "g = G M / r",
+          "g = G M / r²",
+          "g = M / (G r²)",
+          "g = r² / (G M)"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que le principe d'incertitude d'Heisenberg ?",
+        "question": "Le champ gravitationnel terrestre est dirigé :",
         "options": [
-          "On peut mesurer position et vitesse exactement",
-          "On ne peut pas mesurer simultanément position et quantité de mouvement avec précision",
-          "L'énergie est toujours conservée",
-          "La lumière est une onde"
+          "Vers le haut",
+          "Horizontalement",
+          "Vers le centre de la Terre",
+          "Vers le Soleil"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Le champ électrique créé par une charge positive est dirigé :",
+        "options": [
+          "Vers la charge",
+          "Autour de la charge",
+          "A l'intérieur de la charge",
+          "Vers l'extérieur de la charge"
+        ],
+        "correctIndex": 3
+      },
+      {
+        "question": "L'expression du champ électrique créé par une charge Q à une distance r est :",
+        "options": [
+          "E = k Q / r",
+          "E = k Q / r²",
+          "E = r² / (k Q)",
+          "E = Q r²"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que la relativité restreinte ?",
+        "question": "Un condensateur est un dipôle capable de :",
         "options": [
-          "Théorie de la gravité",
-          "Théorie liée à la vitesse de la lumière comme limite",
-          "Théorie des ondes",
-          "Théorie quantique"
+          "Produire du courant",
+          "Stocker de l'énergie électrique",
+          "Transformer l'énergie",
+          "Mesurer une tension"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce qu'un trou noir ?",
+        "question": "La capacité d'un condensateur plan dépend :",
         "options": [
-          "Étoile froide",
-          "Région de l'espace avec gravité si forte que rien n'en échappe",
-          "Nébuleuse sombre",
-          "Planète sans lumière"
+          "De la tension",
+          "De la charge",
+          "De la surface des armatures et de leur distance",
+          "Du courant"
         ],
-        "correctIndex": 1
+        "correctIndex": 2
       },
       {
-        "question": "Qu'est-ce que la supraconductivité ?",
+        "question": "L'expression de la capacité d'un condensateur est :",
         "options": [
-          "Résistance électrique maximale",
-          "Résistance électrique nulle à basse température",
-          "Conductivité thermique élevée",
-          "Magnétisme permanent"
+          "C = Q x U",
+          "C = U / Q",
+          "C = Q / U",
+          "C = U Q"
         ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce que le boson de Higgs ?",
-        "options": [
-          "Type d'onde électromagnétique",
-          "Particule qui donne la masse aux autres particules",
-          "Antimatière",
-          "Quark lourd"
-        ],
-        "correctIndex": 1
+        "correctIndex": 2
       }
     ],
     "Chimie": [
       {
-        "question": "Qu'est-ce que la chimie verte ?",
+        "question": "La formule générale des alcanes est :",
         "options": [
-          "Chimie des plantes uniquement",
-          "Chimie respectueuse de l'environnement",
-          "Chimie des colorants verts",
-          "Chimie agricole"
+          "CnH2n",
+          "CnH2n-2",
+          "CnH2n+2",
+          "CnHn"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Un hydrocarbure est dit saturé lorsqu'il :",
+        "options": [
+          "Contient au moins une double liaison",
+          "Contient au moins une triple liaison",
+          "Ne contient que des liaisons simples",
+          "Contient un cycle"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Quelle est la particularité des alcènes ?",
+        "options": [
+          "Triple liaison",
+          "Double liaison",
+          "Hydrocarbures saturés",
+          "Liaisons simples uniquement"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que la nanotechnologie ?",
+        "question": "La formule générale des alcynes est :",
         "options": [
-          "Technologie des grands objets",
-          "Manipulation de la matière à l'échelle nanométrique",
-          "Technologie spatiale",
-          "Biotechnologie"
+          "CnH2n+2",
+          "CnH2n",
+          "CnH2n-2",
+          "CnHn"
         ],
-        "correctIndex": 1
+        "correctIndex": 2
       },
       {
-        "question": "Qu'est-ce que la catalyse enzymatique ?",
+        "question": "Deux molécules sont isomères plans lorsqu'elles :",
         "options": [
-          "Réaction sans enzyme",
-          "Accélération d'une réaction par une enzyme",
-          "Inhibition d'une réaction",
-          "Dénaturation d'une protéine"
+          "Ont la même formule brute mais des structures différentes",
+          "Ont la même structure",
+          "Ont des masses différentes",
+          "Ont les mêmes propriétés"
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
-        "question": "Qu'est-ce que la spectroscopie ?",
+        "question": "Exemple d'isomérie de chaîne :",
         "options": [
-          "Étude des spectres politiques",
-          "Analyse de la matière par interaction avec le rayonnement",
-          "Mesure de la température",
-          "Étude des cristaux"
+          "Butane et 2-méthylpropane",
+          "Éthane et éthène",
+          "Éthène et éthyne",
+          "Propane et propène"
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
-        "question": "Qu'est-ce qu'un fullerène ?",
+        "question": "Nom de CH3-CH=CH2 :",
         "options": [
-          "Type de plastique",
-          "Forme allotropique du carbone (C60)",
-          "Composé organique",
-          "Métal rare"
+          "Propane",
+          "Propyne",
+          "Propène",
+          "Propanol"
         ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce que la chimie des matériaux ?",
-        "options": [
-          "Étude des matières premières",
-          "Étude des propriétés et applications des matériaux",
-          "Recyclage des déchets",
-          "Extraction minière"
-        ],
-        "correctIndex": 1
+        "correctIndex": 2
       }
     ],
     "SVT": [
@@ -2089,64 +2579,104 @@
     ],
     "Histoire-Géographie": [
       {
-        "question": "Qu'est-ce que la géopolitique ?",
+        "question": "La machine a vapeur perfectionnee est associee principalement a :",
         "options": [
-          "Géographie physique",
-          "Étude des relations entre géographie et politique",
-          "Politique nationale",
-          "Économie internationale"
+          "Thomas Edison",
+          "James Watt",
+          "Alexander Bell",
+          "Louis Pasteur"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que la puissance mondiale ?",
+        "question": "La revolution economique du XIXe siecle entraine :",
         "options": [
-          "Pays avec grande armée",
-          "État ayant influence économique, militaire et culturelle mondiale",
-          "Pays le plus peuplé",
-          "Pays le plus riche"
+          "Une diminution de la population urbaine",
+          "Une ruralisation massive",
+          "Une urbanisation rapide",
+          "La fin du commerce international"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "La revolution industrielle debute d'abord :",
+        "options": [
+          "En France",
+          "En Allemagne",
+          "Aux Etats-Unis",
+          "En Angleterre"
+        ],
+        "correctIndex": 3
+      },
+      {
+        "question": "La premiere revolution industrielle repose principalement sur :",
+        "options": [
+          "Le petrole et l'electricite",
+          "Le charbon et la machine a vapeur",
+          "Le nucleaire",
+          "L'informatique"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que le multilatéralisme ?",
+        "question": "Le capitalisme se caracterise par :",
         "options": [
-          "Accord entre deux pays",
-          "Coopération entre plusieurs pays",
-          "Politique nationale isolationniste",
-          "Alliance militaire"
+          "La propriete collective des usines",
+          "L'investissement prive et la recherche du profit",
+          "L'absence de concurrence",
+          "La suppression des banques"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que la fracture numérique ?",
+        "question": "Le relief africain est domine par :",
         "options": [
-          "Panne informatique",
-          "Inégalité d'accès aux technologies numériques",
-          "Cybercriminalité",
-          "Censure d'internet"
+          "De vastes plaines",
+          "Des plateaux anciens",
+          "De hautes chaines recentes",
+          "Des collines volcaniques"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que le soft power ?",
+        "question": "Les montagnes de l'Atlas se situent principalement :",
         "options": [
-          "Puissance militaire",
-          "Influence par la culture et les valeurs",
-          "Puissance économique",
-          "Diplomatie traditionnelle"
+          "En Afrique de l'Est",
+          "En Afrique australe",
+          "En Afrique du Nord",
+          "En Afrique centrale"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Le Sahel est une zone :",
+        "options": [
+          "De foret dense humide",
+          "De transition entre desert et savane",
+          "De climat mediterraneen",
+          "De haute montagne"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que la gouvernance mondiale ?",
+        "question": "Le climat mediterraneen en Afrique se rencontre surtout :",
         "options": [
-          "Gouvernement mondial unique",
-          "Ensemble des mécanismes de régulation à l'échelle mondiale",
-          "Domination d'un seul pays",
-          "ONU uniquement"
+          "En Afrique du Nord et au sud de l'Afrique",
+          "En Afrique centrale",
+          "En Afrique de l'Est",
+          "En Afrique equatoriale"
         ],
-        "correctIndex": 1
+        "correctIndex": 0
+      },
+      {
+        "question": "Le delta interieur du Niger se situe principalement :",
+        "options": [
+          "Au Nigeria",
+          "En Guinee",
+          "Au Mali",
+          "En Algerie"
+        ],
+        "correctIndex": 2
       }
     ],
     "Économie": [
