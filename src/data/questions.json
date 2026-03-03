@@ -1,6 +1,77 @@
 {
   "10e": {
-    "Maths": [],
+    "Maths": [
+      {
+        "question": "Un atome de carbone est dit asymétrique lorsqu'il :",
+        "options": [
+          "Est lié à deux atomes identiques",
+          "Est lié à quatre atomes ou groupes différents",
+          "Possède une double liaison",
+          "Est lié à un atome d'oxygène"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Deux molécules images l'une de l'autre dans un miroir et non superposables sont appelées :",
+        "options": [
+          "Isomères de position",
+          "Diastéréoisomères",
+          "Énantiomères",
+          "Isomères de fonction"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "La fonction alcool est caractérisée par le groupe :",
+        "options": [
+          "COOH",
+          "NH2",
+          "OH",
+          "CHO"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Une amine primaire a pour formule générale :",
+        "options": [
+          "R-NH2",
+          "R2NH",
+          "R3N",
+          "R-COOH"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "La formule générale d'un acide carboxylique est :",
+        "options": [
+          "R-OH",
+          "R-COOH",
+          "R-NH2",
+          "R-CHO"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le glucose appartient à la famille des :",
+        "options": [
+          "Lipides",
+          "Protides",
+          "Glucides",
+          "Polymères synthétiques"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Un polymère est :",
+        "options": [
+          "Une petite molécule simple",
+          "Une molécule formée par l'assemblage répété de petites unités appelées monomères",
+          "Un alcool complexe",
+          "Un sel minéral"
+        ],
+        "correctIndex": 1
+      }
+    ],
     "Physique": [
       {
         "question": "Quelle est l'unité de la force dans le système international ?",
