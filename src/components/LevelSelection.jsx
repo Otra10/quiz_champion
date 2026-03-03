@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import questionsData from '../data/questions.json'
 
-const LEVELS = ['10e', '11e', 'TSE', 'TSEXp', 'SES', 'Sciences']
+const LEVELS = ['10e', 'TSECO', 'TSE', 'TSEXp', '11SES', '11SC']
 const SUBJECTS = ['Maths', 'Physique', 'Chimie', 'SVT', 'Histoire-Géographie', 'Économie']
 
 const SUBJECT_ICONS = {
@@ -16,11 +16,11 @@ const SUBJECT_ICONS = {
 
 const LEVEL_COLORS = {
   '10e': '#4f86c6',
-  '11e': '#5c9e6e',
+  'TSECO': '#5c9e6e',
   'TSE': '#c47f3a',
   'TSEXp': '#9b59b6',
-  'SES': '#e74c3c',
-  'Sciences': '#1abc9c',
+  '11SES': '#e74c3c',
+  '11SC': '#1abc9c',
 }
 
 const containerVariants = {

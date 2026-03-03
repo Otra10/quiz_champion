@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useQuestions } from '../hooks/useQuestions'
 import defaultQuestions from '../data/questions.json'
 
-const LEVELS = ['10e', '11e', 'TSE', 'TSEXp', 'SES', 'Sciences']
+const LEVELS = ['10e', 'TSECO', 'TSE', 'TSEXp', '11SES', '11SC']
 const SUBJECTS = ['Maths', 'Physique', 'Chimie', 'SVT', 'Histoire-Géographie', 'Économie']
 const OPTION_LETTERS = ['A', 'B', 'C', 'D']
 
