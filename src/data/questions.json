@@ -1,6 +1,137 @@
 {
   "10e": {
-    "Maths": [],
+    "Maths": [
+      {
+        "question": "Quel est l'inverse du reel non nul a ?",
+        "options": [
+          "a lui-meme",
+          "-a",
+          "1/a",
+          "0"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "L'inverse d'un nombre reel positif est lui-meme, lequel ?",
+        "options": [
+          "0",
+          "-1",
+          "1",
+          "2"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Le cosinus de l'angle droit est egal a :",
+        "options": [
+          "zero",
+          "moins un",
+          "trois",
+          "un"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Le sinus de l'angle plat est egal a :",
+        "options": [
+          "moins un",
+          "zero",
+          "moins deux",
+          "un"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le cosinus de zero radian est egal a :",
+        "options": [
+          "un",
+          "moins un",
+          "neuf",
+          "zero"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "La somme de deux angles supplementaires est egale a",
+        "options": [
+          "90 degres",
+          "120 degres",
+          "180 degres",
+          "360 degres"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "La racine carree du nombre reel huit est egale a",
+        "options": [
+          "deux racine deux",
+          "quatre",
+          "moins deux",
+          "racine trois"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "La distance entre les reels a et b est egale a",
+        "options": [
+          "la valeur absolue de a moins b",
+          "le quotient de a par b",
+          "la somme de a et b",
+          "a fois b"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "La solution de deux fois x egal a zero est egale a",
+        "options": [
+          "zero",
+          "deux",
+          "treize",
+          "un"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Quelle est la tangente de quarante-cinq degres ?",
+        "options": [
+          "moins un",
+          "un",
+          "zero",
+          "racine deux"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Quelle est la cotangente de pi sur quatre radians ?",
+        "options": [
+          "un",
+          "moins deux",
+          "quatre",
+          "zero"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Le nombre zero fois tout nombre reel est egal a",
+        "options": [
+          "ce nombre lui-meme",
+          "zero",
+          "son oppose",
+          "un"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Un triangle ayant un angle droit est appele",
+        "options": [
+          "triangle equilateral",
+          "triangle isocele",
+          "triangle rectangle",
+          "triangle quelconque"
+        ],
+        "correctIndex": 2
+      }
+    ],
     "Physique": [
       {
         "question": "Le moment d'une force se calcule par :",
@@ -317,64 +448,144 @@
     ],
     "SVT": [
       {
-        "question": "Quel organe pompe le sang dans le corps humain ?",
+        "question": "La peau est pour les microbes une barriere :",
         "options": [
-          "Poumon",
-          "Foie",
-          "Cœur",
-          "Rein"
-        ],
-        "correctIndex": 2
-      },
-      {
-        "question": "Combien de chromosomes possède une cellule humaine normale ?",
-        "options": [
-          "23",
-          "44",
-          "46",
-          "48"
-        ],
-        "correctIndex": 2
-      },
-      {
-        "question": "Quel processus permet aux plantes de fabriquer leur nourriture ?",
-        "options": [
-          "Respiration",
-          "Photosynthèse",
-          "Digestion",
-          "Transpiration"
+          "biochimique",
+          "physique",
+          "ecologique",
+          "immunologique"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Quel est le rôle principal des globules rouges ?",
+        "question": "La peau est l'organe :",
         "options": [
-          "Défense immunitaire",
-          "Coagulation",
-          "Transport de l'oxygène",
-          "Digestion"
+          "de la vue",
+          "du toucher",
+          "du gout",
+          "de l'odorat"
         ],
-        "correctIndex": 2
+        "correctIndex": 1
       },
       {
-        "question": "Dans quelle partie de la cellule se trouve l'ADN ?",
+        "question": "La cellule eucaryote :",
         "options": [
-          "Cytoplasme",
-          "Membrane",
-          "Noyau",
-          "Mitochondrie"
+          "n'a pas de noyau",
+          "a un noyau bien determine",
+          "n'a pas de membrane",
+          "est toujours vegetale"
         ],
-        "correctIndex": 2
+        "correctIndex": 1
       },
       {
-        "question": "Quel organe filtre le sang et produit l'urine ?",
+        "question": "L'ecologie est la science qui etudie :",
         "options": [
-          "Foie",
-          "Pancréas",
-          "Rate",
-          "Rein"
+          "le rapport entre les etres vivants eux-memes",
+          "le rapport entre les etres vivants et leurs milieux",
+          "la structure des cellules",
+          "les roches sedimentaires"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Un vertebre est un :",
+        "options": [
+          "animal qui n'a pas d'os",
+          "animal qui a des os",
+          "vegetal avec une tige",
+          "champignon"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "L'eau, l'air, la lumiere sont les :",
+        "options": [
+          "facteurs biotiques du milieu",
+          "facteurs abiotiques du milieu",
+          "facteurs chimiques du milieu",
+          "facteurs biologiques"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Dans une chaine alimentaire les vegetaux sont :",
+        "options": [
+          "les consommateurs",
+          "les producteurs",
+          "les decomposeurs",
+          "les predateurs"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le dromadaire est un mammifere :",
+        "options": [
+          "Vrai",
+          "Faux",
+          "Peut-etre",
+          "Cela depend de l'espece"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "La predation est une relation dans laquelle un vivant mange un autre :",
+        "options": [
+          "Vrai",
+          "Faux",
+          "Seulement chez les animaux",
+          "Seulement en milieu aquatique"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Le SIDA est transmis par voie :",
+        "options": [
+          "sexuelle",
+          "sanguine",
+          "mere-enfant",
+          "les trois voies"
         ],
         "correctIndex": 3
+      },
+      {
+        "question": "La loupe permet d'observer les objets :",
+        "options": [
+          "invisibles a l'oeil nu",
+          "visibles a l'oeil nu",
+          "microscopiques uniquement",
+          "a longue distance"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le miroir du microscope permet de :",
+        "options": [
+          "fixer la preparation microscopique",
+          "eclairer la preparation microscopique",
+          "agrandir l'image",
+          "mesurer la cellule"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Un fossile est un reste d'etre vivant retrouve dans les roches sedimentaires :",
+        "options": [
+          "Vrai",
+          "Faux",
+          "Uniquement pour les animaux",
+          "Uniquement pour les vegetaux"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Le parenchyme est un tissu de nutrition :",
+        "options": [
+          "Vrai",
+          "Faux",
+          "C'est un tissu de soutien",
+          "C'est un tissu conducteur"
+        ],
+        "correctIndex": 0
       }
     ],
     "Histoire-Géographie": [
@@ -883,62 +1094,52 @@
     ],
     "Histoire-Géographie": [
       {
-        "question": "Quelle est la date de la Révolution française ?",
+        "question": "La progression de la desertification au Sahel malien est liee :",
         "options": [
-          "1779",
-          "1789",
-          "1799",
-          "1809"
+          "A l'augmentation des precipitations",
+          "A la pression demographique et aux variations climatiques",
+          "A l'industrialisation excessive",
+          "Aux seismes frequents"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+        "question": "Le developpement de l'Office du Niger illustre :",
         "options": [
-          "Traité de Paris",
-          "Traité de Versailles",
-          "Traité de Berlin",
-          "Traité de Rome"
+          "Une politique d'amenagement agricole basee sur l'irrigation",
+          "L'industrialisation lourde du Mali",
+          "Une politique miniere",
+          "Une reforme urbaine"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "La forte croissance demographique du Mali entraine :",
+        "options": [
+          "Une baisse de la pression sur les ressources",
+          "Un defi en matiere d'emploi et d'infrastructures",
+          "Une diminution de l'exode rural",
+          "Une stabilisation urbaine"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Quelle est la capitale du Brésil ?",
+        "question": "La dependance du Mali a l'exportation de l'or rend son economie :",
         "options": [
-          "São Paulo",
-          "Rio de Janeiro",
-          "Brasilia",
-          "Salvador"
+          "Diversifiee",
+          "Independante des marches mondiaux",
+          "Vulnerable aux fluctuations des prix internationaux",
+          "Autosuffisante"
         ],
         "correctIndex": 2
       },
       {
-        "question": "En quelle année a eu lieu la chute du mur de Berlin ?",
+        "question": "La dynamique migratoire des Etats-Unis contribue :",
         "options": [
-          "1987",
-          "1988",
-          "1989",
-          "1990"
-        ],
-        "correctIndex": 2
-      },
-      {
-        "question": "Quel est le plus long fleuve du monde ?",
-        "options": [
-          "Amazone",
-          "Nil",
-          "Mississippi",
-          "Yangtsé"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Quelle est la capitale de l'Australie ?",
-        "options": [
-          "Sydney",
-          "Melbourne",
-          "Brisbane",
-          "Canberra"
+          "A l'homogeneite culturelle",
+          "A la ruralisation",
+          "A la baisse de la population active",
+          "A la diversite ethnique et a l'innovation"
         ],
         "correctIndex": 3
       }
@@ -1009,64 +1210,64 @@
   "TSE": {
     "Maths": [
       {
-        "question": "Quelle est la dérivée de f(x) = e^x ?",
+        "question": "Le produit de deux nombres complexes imaginaires purs donne",
         "options": [
-          "f'(x) = e^(x-1)",
-          "f'(x) = x·e^x",
-          "f'(x) = e^x",
-          "f'(x) = 1/e^x"
+          "Un nombre reel",
+          "Un nombre imaginaire",
+          "Un irrationnel",
+          "Un nombre complexe quelconque"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Quelle est la somme de douze plus deux dans la base binaire ?",
+        "options": [
+          "quatorze",
+          "Zero",
+          "Trois",
+          "Seize"
         ],
         "correctIndex": 2
       },
       {
-        "question": "Que vaut ln(e) ?",
+        "question": "Le produit de huit fois quatre dans Z/nZ est egal a",
         "options": [
-          "0",
-          "1",
-          "e",
-          "1/e"
+          "Trente-deux",
+          "Un",
+          "zero",
+          "Seize"
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
-        "question": "Quelle est l'intégrale de f(x) = 2x ?",
+        "question": "La racine carree de moins deux dans C donne",
         "options": [
-          "x",
-          "x²",
-          "x² + C",
-          "2x² + C"
+          "i racine deux ou moins i racine deux",
+          "moins i ou plus i",
+          "zero",
+          "deux i"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Si le reel a divise le reel b alors le reste de la division de b par a est egal :",
+        "options": [
+          "un",
+          "b lui-meme",
+          "zero",
+          "a lui-meme"
         ],
         "correctIndex": 2
       },
       {
-        "question": "Que vaut tan(45°) ?",
+        "question": "Dans Z le relatif x fois le relatif y est egal a zero implique que :",
         "options": [
-          "0",
-          "√2/2",
-          "1",
-          "√3"
+          "x est egal a zero ou y egal a zero",
+          "x different de zero et y different de zero",
+          "x et y n'existent pas",
+          "x et y sont egaux"
         ],
-        "correctIndex": 2
-      },
-      {
-        "question": "Quelle est la formule de la somme d'une suite géométrique ?",
-        "options": [
-          "Sn = n(a+l)/2",
-          "Sn = a(1-r^n)/(1-r)",
-          "Sn = na",
-          "Sn = a+r^n"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Que vaut log₁₀(1000) ?",
-        "options": [
-          "2",
-          "3",
-          "4",
-          "10"
-        ],
-        "correctIndex": 1
+        "correctIndex": 0
       }
     ],
     "Physique": [
@@ -1215,64 +1416,74 @@
     ],
     "SVT": [
       {
-        "question": "Qu'est-ce que la transcription en biologie moléculaire ?",
+        "question": "La FSH et la LH sont des hormones :",
         "options": [
-          "ADN → ADN",
-          "ADN → ARN",
-          "ARN → Protéine",
-          "Protéine → ADN"
+          "Ovariennes",
+          "Hypophysaires hypothalamiques",
+          "Hypophysaires",
+          "Uterines"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Les spermatozoides sont :",
+        "options": [
+          "Des cellules somatiques",
+          "Des organes sexuels femelles",
+          "Des organes sexuels males",
+          "Des cellules haploides"
+        ],
+        "correctIndex": 3
+      },
+      {
+        "question": "La croissance d'un etre vivant s'effectue en :",
+        "options": [
+          "4 phases: prophase, metaphase, anaphase, telophase",
+          "2 phases: interphase et mitose",
+          "2 phases: interphase et meiose",
+          "3 phases: folliculaire, ovulatoire, luteal"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que la traduction en biologie moléculaire ?",
+        "question": "Les conduits genitaux chez l'homme sont au nombre de :",
         "options": [
-          "ADN → ARN",
-          "ARN → Protéine",
-          "ADN → Protéine",
-          "Protéine → ARN"
+          "4",
+          "3",
+          "5",
+          "2"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que l'homéostasie ?",
+        "question": "Dans une carte topographique (1) :",
         "options": [
-          "Variation du milieu interne",
-          "Maintien constant du milieu interne",
-          "Adaptation à l'environnement externe",
-          "Croissance cellulaire"
+          "Les points equidistants sont sur une meme courbe de niveau",
+          "Une courbe de niveau relie les points de meme altitude",
+          "Les courbes de niveau sont plus serrees si la structure est tabulaire",
+          "Une vallee est representee par une haute altitude"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Quel est le rôle des anticorps ?",
+        "question": "Dans une carte topographique (2) :",
         "options": [
-          "Transporter l'oxygène",
-          "Neutraliser les antigènes",
-          "Produire de l'énergie",
-          "Digérer les aliments"
+          "Les courbes normales portent des nombres",
+          "Les courbes de niveau sont concentriques",
+          "L'echelle E = D/d",
+          "D = E * d"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce que la symbiose ?",
+        "question": "Chez la femme, la folliculogenese commence :",
         "options": [
-          "Relation où un organisme nuit à l'autre",
-          "Relation bénéfique pour les deux organismes",
-          "Relation neutre",
-          "Compétition entre espèces"
+          "Des la puberte",
+          "Juste avant les premieres regles du cycle",
+          "Juste apres la naissance",
+          "Depuis le stade foetal"
         ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Quel est le rôle du système nerveux central ?",
-        "options": [
-          "Pomper le sang",
-          "Coordonner les activités du corps",
-          "Filtrer le sang",
-          "Produire des hormones"
-        ],
-        "correctIndex": 1
+        "correctIndex": 3
       }
     ],
     "Histoire-Géographie": [
@@ -1887,62 +2098,52 @@
   "11SES": {
     "Maths": [
       {
-        "question": "Qu'est-ce qu'une probabilité ?",
+        "question": "La forme canonique d'une fonction polynome du second degre est :",
         "options": [
-          "Certitude d'un événement",
-          "Mesure de la chance qu'un événement se produise",
-          "Nombre d'événements possibles",
-          "Résultat d'une expérience"
+          "une fonction du second degre",
+          "une fonction constante",
+          "une fonction nulle",
+          "une fonction lineaire"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Deux droites paralleles ont meme :",
+        "options": [
+          "coefficient directeur",
+          "coefficient directeur de l'une est oppose de celui de l'autre",
+          "des pentes differentes",
+          "ordonnee a l'origine"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Le produit des pentes de deux droites perpendiculaires est :",
+        "options": [
+          "moins racine deux",
+          "moins un",
+          "moins deux",
+          "zero"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Que représente la médiane d'une série statistique ?",
+        "question": "L'equation reduite d'une droite de pente non nulle est une :",
         "options": [
-          "La valeur la plus fréquente",
-          "La valeur centrale qui partage la série en deux",
-          "La moyenne arithmétique",
-          "L'écart entre max et min"
+          "application affine",
+          "application constante",
+          "demi-droite",
+          "parabole"
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
-        "question": "Qu'est-ce que la moyenne arithmétique ?",
+        "question": "Quel est l'equivalent du double d'un capital C ?",
         "options": [
-          "Valeur la plus fréquente",
-          "Somme des valeurs divisée par leur nombre",
-          "Valeur centrale",
-          "Valeur maximale"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce qu'un diagramme circulaire (camembert) ?",
-        "options": [
-          "Représentation de l'évolution dans le temps",
-          "Représentation des parts d'un tout",
-          "Représentation de la corrélation",
-          "Représentation des fréquences"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce que l'écart-type ?",
-        "options": [
-          "Valeur maximale",
-          "Mesure de la dispersion des données",
-          "Valeur minimale",
-          "Somme des données"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce qu'un indice base 100 ?",
-        "options": [
-          "Valeur absolue d'une donnée",
-          "Valeur relative par rapport à une référence fixée à 100",
-          "Pourcentage de variation",
-          "Taux de croissance"
+          "trois fois C",
+          "deux cent pour cent de C",
+          "deux fois C",
+          "la moitie de C"
         ],
         "correctIndex": 1
       }
@@ -2739,6 +2940,430 @@
           "Monnaie physique"
         ],
         "correctIndex": 1
+      }
+    ]
+  },
+  "SES": {
+    "Chimie": [
+      {
+        "question": "La formule générale des alcanes est :",
+        "options": [
+          "CnH2n",
+          "CnH2n-2",
+          "CnH2n+2",
+          "CnHn"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Un hydrocarbure est dit saturé lorsqu'il :",
+        "options": [
+          "Contient au moins une double liaison",
+          "Contient au moins une triple liaison",
+          "Ne contient que des liaisons simples",
+          "Contient un cycle"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Quelle est la particularité des alcènes ?",
+        "options": [
+          "Triple liaison",
+          "Double liaison",
+          "Hydrocarbures saturés",
+          "Liaisons simples uniquement"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "La formule générale des alcynes est :",
+        "options": [
+          "CnH2n+2",
+          "CnH2n",
+          "CnH2n-2",
+          "CnHn"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Deux molécules sont isomères plans lorsqu'elles :",
+        "options": [
+          "Ont la même formule brute mais des structures différentes",
+          "Ont la même structure",
+          "Ont des masses différentes",
+          "Ont les mêmes propriétés"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Exemple d'isomérie de chaîne :",
+        "options": [
+          "Butane et 2-méthylpropane",
+          "Éthane et éthène",
+          "Éthène et éthyne",
+          "Propane et propène"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Nom de CH3-CH=CH2 :",
+        "options": [
+          "Propane",
+          "Propyne",
+          "Propène",
+          "Propanol"
+        ],
+        "correctIndex": 2
+      }
+    ],
+    "Histoire-Géographie": [
+      {
+        "question": "Les conditions favorables des progres scientifiques et techniques sont :",
+        "options": [
+          "Le polytheisme pur et simple",
+          "La croissance demographique et le baby-boom",
+          "La curiosite scientifique, l'encouragement a la recherche et les moyens d'action accrue",
+          "Aucune de ces reponses"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "En 1849, FRESNEL demontre en physique que la lumiere est un phenomene :",
+        "options": [
+          "Vibratoire",
+          "Naturel",
+          "Secondaire",
+          "Aleatoire"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "En biologie et medecine, LOUIS PASTEUR demontre en 1862 :",
+        "options": [
+          "La microbiologie",
+          "La theorie de l'heredite",
+          "La microscopie",
+          "La genetique"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "La loi de conservation de masse est attribuee a :",
+        "options": [
+          "Pierre Curie",
+          "Marcelin Berthelot",
+          "Antoine L. Lavoisier",
+          "Albert Einstein"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "La decouverte de la structure de l'ADN est realisee grace aux :",
+        "options": [
+          "Progres techniques",
+          "Progres scientifiques",
+          "Realisations philosophiques",
+          "Avancees politiques"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Les principales formes du relief africain sont :",
+        "options": [
+          "L'agriculture, l'elevage et la peche",
+          "Les arbres, les herbes et les animaux",
+          "Les montagnes, les plateaux, les plaines, les cuvettes et les fosses d'effondrement",
+          "Les volcans et les glaciers"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "La hauteur du mont Kilimandjaro est de :",
+        "options": [
+          "22 000 m",
+          "4 600 m",
+          "5 963 m",
+          "8 848 m"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Le barrage d'Assouan sur le Nil a pour objectif principal :",
+        "options": [
+          "D'augmenter la navigation maritime",
+          "De controler les crues et produire de l'electricite",
+          "De detourner le fleuve",
+          "De creer une reserve naturelle"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le plus vaste lac en Afrique est le lac :",
+        "options": [
+          "Victoria",
+          "Tchad",
+          "Tanganyika",
+          "Malawi"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Le Mali est arrose par deux principaux fleuves, il s'agit :",
+        "options": [
+          "Du Zambeze et du Senegal",
+          "Du Congo et du Milo",
+          "Du Niger et du Senegal",
+          "Du Nil et du Volta"
+        ],
+        "correctIndex": 2
+      }
+    ]
+  },
+  "Sciences": {
+    "Chimie": [
+      {
+        "question": "La formule générale des alcanes est :",
+        "options": [
+          "CnH2n",
+          "CnH2n-2",
+          "CnH2n+2",
+          "CnHn"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Un hydrocarbure est dit saturé lorsqu'il :",
+        "options": [
+          "Contient au moins une double liaison",
+          "Contient au moins une triple liaison",
+          "Ne contient que des liaisons simples",
+          "Contient un cycle"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Quelle est la particularité des alcènes ?",
+        "options": [
+          "Triple liaison",
+          "Double liaison",
+          "Hydrocarbures saturés",
+          "Liaisons simples uniquement"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "La formule générale des alcynes est :",
+        "options": [
+          "CnH2n+2",
+          "CnH2n",
+          "CnH2n-2",
+          "CnHn"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Deux molécules sont isomères plans lorsqu'elles :",
+        "options": [
+          "Ont la même formule brute mais des structures différentes",
+          "Ont la même structure",
+          "Ont des masses différentes",
+          "Ont les mêmes propriétés"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Exemple d'isomérie de chaîne :",
+        "options": [
+          "Butane et 2-méthylpropane",
+          "Éthane et éthène",
+          "Éthène et éthyne",
+          "Propane et propène"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Nom de CH3-CH=CH2 :",
+        "options": [
+          "Propane",
+          "Propyne",
+          "Propène",
+          "Propanol"
+        ],
+        "correctIndex": 2
+      }
+    ],
+    "Physique": [
+      {
+        "question": "Le champ gravitationnel créé par une masse ponctuelle M à une distance r est :",
+        "options": [
+          "g = G M / r",
+          "g = G M / r²",
+          "g = M / (G r²)",
+          "g = r² / (G M)"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le champ gravitationnel terrestre est dirigé :",
+        "options": [
+          "Vers le haut",
+          "Horizontalement",
+          "Vers le centre de la Terre",
+          "Vers le Soleil"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Le champ électrique créé par une charge positive est dirigé :",
+        "options": [
+          "Vers la charge",
+          "Autour de la charge",
+          "A l'intérieur de la charge",
+          "Vers l'extérieur de la charge"
+        ],
+        "correctIndex": 3
+      },
+      {
+        "question": "L'expression du champ électrique créé par une charge Q à une distance r est :",
+        "options": [
+          "E = k Q / r",
+          "E = k Q / r²",
+          "E = r² / (k Q)",
+          "E = Q r²"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Un condensateur est un dipôle capable de :",
+        "options": [
+          "Produire du courant",
+          "Stocker de l'énergie électrique",
+          "Transformer l'énergie",
+          "Mesurer une tension"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "La capacité d'un condensateur plan dépend :",
+        "options": [
+          "De la tension",
+          "De la charge",
+          "De la surface des armatures et de leur distance",
+          "Du courant"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "L'expression de la capacité d'un condensateur est :",
+        "options": [
+          "C = Q x U",
+          "C = U / Q",
+          "C = Q / U",
+          "C = U Q"
+        ],
+        "correctIndex": 2
+      }
+    ],
+    "Histoire-Géographie": [
+      {
+        "question": "La machine a vapeur perfectionnee est associee principalement a :",
+        "options": [
+          "Thomas Edison",
+          "James Watt",
+          "Alexander Bell",
+          "Louis Pasteur"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "La revolution economique du XIXe siecle entraine :",
+        "options": [
+          "Une diminution de la population urbaine",
+          "Une ruralisation massive",
+          "Une urbanisation rapide",
+          "La fin du commerce international"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "La revolution industrielle debute d'abord :",
+        "options": [
+          "En France",
+          "En Allemagne",
+          "Aux Etats-Unis",
+          "En Angleterre"
+        ],
+        "correctIndex": 3
+      },
+      {
+        "question": "La premiere revolution industrielle repose principalement sur :",
+        "options": [
+          "Le petrole et l'electricite",
+          "Le charbon et la machine a vapeur",
+          "Le nucleaire",
+          "L'informatique"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le capitalisme se caracterise par :",
+        "options": [
+          "La propriete collective des usines",
+          "L'investissement prive et la recherche du profit",
+          "L'absence de concurrence",
+          "La suppression des banques"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le relief africain est domine par :",
+        "options": [
+          "De vastes plaines",
+          "Des plateaux anciens",
+          "De hautes chaines recentes",
+          "Des collines volcaniques"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Les montagnes de l'Atlas se situent principalement :",
+        "options": [
+          "En Afrique de l'Est",
+          "En Afrique australe",
+          "En Afrique du Nord",
+          "En Afrique centrale"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Le Sahel est une zone :",
+        "options": [
+          "De foret dense humide",
+          "De transition entre desert et savane",
+          "De climat mediterraneen",
+          "De haute montagne"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Le climat mediterraneen en Afrique se rencontre surtout :",
+        "options": [
+          "En Afrique du Nord et au sud de l'Afrique",
+          "En Afrique centrale",
+          "En Afrique de l'Est",
+          "En Afrique equatoriale"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "Le delta interieur du Niger se situe principalement :",
+        "options": [
+          "Au Nigeria",
+          "En Guinee",
+          "Au Mali",
+          "En Algerie"
+        ],
+        "correctIndex": 2
       }
     ]
   }
