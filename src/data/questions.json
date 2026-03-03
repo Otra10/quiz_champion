@@ -1207,62 +1207,72 @@
     ],
     "Chimie": [
       {
-        "question": "Qu'est-ce que l'électronégativité ?",
+        "question": "Un atome de carbone est dit asymétrique lorsqu'il :",
         "options": [
-          "Capacité à perdre des électrons",
-          "Capacité à attirer des électrons dans une liaison",
-          "Charge d'un ion",
-          "Nombre d'électrons de valence"
+          "Est lié à deux atomes identiques",
+          "Est lié à quatre atomes ou groupes différents",
+          "Possède une double liaison",
+          "Est lié à un atome d'oxygène"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce qu'une réaction de saponification ?",
+        "question": "Deux molécules images l'une de l'autre dans un miroir et non superposables sont appelées :",
         "options": [
-          "Hydrolyse d'un ester en milieu basique",
-          "Oxydation d'un alcool",
-          "Réduction d'un acide",
-          "Estérification d'un alcool"
+          "Isomères de position",
+          "Diastéréoisomères",
+          "Énantiomères",
+          "Isomères de fonction"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "La fonction alcool est caractérisée par le groupe :",
+        "options": [
+          "COOH",
+          "NH2",
+          "OH",
+          "CHO"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "question": "Une amine primaire a pour formule générale :",
+        "options": [
+          "R-NH2",
+          "R2NH",
+          "R3N",
+          "R-COOH"
         ],
         "correctIndex": 0
       },
       {
-        "question": "Qu'est-ce que la chromatographie ?",
+        "question": "La formule générale d'un acide carboxylique est :",
         "options": [
-          "Technique de coloration",
-          "Technique de séparation de mélanges",
-          "Technique de synthèse",
-          "Technique de mesure du pH"
+          "R-OH",
+          "R-COOH",
+          "R-NH2",
+          "R-CHO"
         ],
         "correctIndex": 1
       },
       {
-        "question": "Qu'est-ce qu'un polymère ?",
+        "question": "Le glucose appartient à la famille des :",
         "options": [
-          "Petite molécule",
-          "Macromolécule formée de monomères répétés",
-          "Ion chargé positivement",
-          "Atome radioactif"
+          "Lipides",
+          "Protides",
+          "Glucides",
+          "Polymères synthétiques"
         ],
-        "correctIndex": 1
+        "correctIndex": 2
       },
       {
-        "question": "Quelle est la formule de l'éthanol ?",
+        "question": "Un polymère est :",
         "options": [
-          "CH3OH",
-          "C2H5OH",
-          "C3H7OH",
-          "C4H9OH"
-        ],
-        "correctIndex": 1
-      },
-      {
-        "question": "Qu'est-ce que la distillation ?",
-        "options": [
-          "Séparation par filtration",
-          "Séparation par différence de points d'ébullition",
-          "Séparation par cristallisation",
-          "Séparation par centrifugation"
+          "Une petite molécule simple",
+          "Une molécule formée par l'assemblage répété de petites unités appelées monomères",
+          "Un alcool complexe",
+          "Un sel minéral"
         ],
         "correctIndex": 1
       }
