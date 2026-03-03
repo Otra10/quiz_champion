@@ -632,7 +632,7 @@
       }
     ]
   },
-  "11e": {
+  "TSECO": {
     "Maths": [
       {
         "question": "Quelle est la dérivée de f(x) = x² ?",
@@ -1884,7 +1884,7 @@
       }
     ]
   },
-  "SES": {
+  "11SES": {
     "Maths": [
       {
         "question": "Qu'est-ce qu'une probabilité ?",
@@ -2308,7 +2308,7 @@
       }
     ]
   },
-  "Sciences": {
+  "11SC": {
     "Maths": [
       {
         "question": "Quelle est la formule de la surface d'un cercle ?",
