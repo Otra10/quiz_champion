@@ -3,7 +3,6 @@ import defaultQuestions from '../data/questions.json'
 
 const STORAGE_KEY = 'quiz_custom_questions'
 
-// Charge les questions personnalisées depuis localStorage
 function loadCustomQuestions() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
@@ -20,7 +19,6 @@ function saveCustomQuestions(data) {
 export function useQuestions() {
   const [customQuestions, setCustomQuestions] = useState(() => loadCustomQuestions())
 
-  // Retourne les questions actives : custom en priorité, sinon JSON par défaut
   const getQuestions = useCallback((level, subject) => {
     return (
       customQuestions[level]?.[subject] ||
@@ -29,29 +27,23 @@ export function useQuestions() {
     )
   }, [customQuestions])
 
-  // Retourne toutes les questions custom pour un niveau/matière
   const getCustomQuestions = useCallback((level, subject) => {
     return customQuestions[level]?.[subject] || []
   }, [customQuestions])
 
-  // Ajoute une question à un niveau/matière
   const addQuestion = useCallback((level, subject, question) => {
     setCustomQuestions(prev => {
       const levelData = prev[level] || {}
       const subjectData = levelData[subject] || []
       const updated = {
         ...prev,
-        [level]: {
-          ...levelData,
-          [subject]: [...subjectData, question],
-        },
+        [level]: { ...levelData, [subject]: [...subjectData, question] },
       }
       saveCustomQuestions(updated)
       return updated
     })
   }, [])
 
-  // Modifie une question existante (par index)
   const updateQuestion = useCallback((level, subject, index, question) => {
     setCustomQuestions(prev => {
       const subjectData = [...(prev[level]?.[subject] || [])]
@@ -65,7 +57,6 @@ export function useQuestions() {
     })
   }, [])
 
-  // Supprime une question par index
   const deleteQuestion = useCallback((level, subject, index) => {
     setCustomQuestions(prev => {
       const subjectData = (prev[level]?.[subject] || []).filter((_, i) => i !== index)
@@ -78,7 +69,6 @@ export function useQuestions() {
     })
   }, [])
 
-  // Réinitialise un niveau/matière aux questions par défaut
   const resetToDefault = useCallback((level, subject) => {
     setCustomQuestions(prev => {
       const updated = { ...prev }
@@ -91,10 +81,34 @@ export function useQuestions() {
     })
   }, [])
 
-  // Indique si des questions custom existent pour ce niveau/matière
   const hasCustom = useCallback((level, subject) => {
     return (customQuestions[level]?.[subject]?.length || 0) > 0
   }, [customQuestions])
+
+  // ✅ NOUVEAU : importe les questions Word dans le localStorage
+  // mode 'replace' → écrase les questions existantes pour ce niveau/matière
+  // mode 'merge'   → ajoute en évitant les doublons (comparaison sur le texte)
+  const importQuestions = useCallback((level, subject, questions, mode = 'replace') => {
+    setCustomQuestions(prev => {
+      let finalQuestions
+      if (mode === 'merge') {
+        const existing = prev[level]?.[subject] || []
+        const existingTexts = new Set(existing.map(q => q.question))
+        const newOnes = questions.filter(q => !existingTexts.has(q.question))
+        finalQuestions = [...existing, ...newOnes]
+      } else {
+        // 'replace' : on part des questions du JSON de base si aucune custom,
+        // mais on écrase complètement avec celles du Word
+        finalQuestions = questions
+      }
+      const updated = {
+        ...prev,
+        [level]: { ...(prev[level] || {}), [subject]: finalQuestions },
+      }
+      saveCustomQuestions(updated)
+      return updated
+    })
+  }, [])
 
   return {
     getQuestions,
@@ -104,6 +118,7 @@ export function useQuestions() {
     deleteQuestion,
     resetToDefault,
     hasCustom,
+    importQuestions, // ✅ à passer à AdminPanel
     customQuestions,
   }
 }

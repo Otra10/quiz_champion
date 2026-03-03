@@ -4,6 +4,7 @@ import { useStudents } from '../hooks/useStudents'
 import { useWordConfig } from '../hooks/useWordConfig'
 import { parseWordQuestions } from '../utils/wordParser'
 import QuestionEditor from './QuestionEditor'
+import defaultQuestions from '../data/questions.json'
 
 const LEVELS = ['10e', '11e', 'TSE', 'TSEXp', 'SES', 'Sciences']
 const SUBJECTS = ['Maths', 'Physique', 'Chimie', 'SVT', 'Histoire-Géographie', 'Économie']
@@ -35,7 +36,45 @@ export default function AdminPanel({ onBack, onQuestionsImported }) {
     }
   }
 
-  // --- Gestion fichiers Word — import depuis /public/words/ ---
+  // --- Télécharger le questions.json fusionné ---
+  const handleDownloadJson = () => {
+    // Récupère les questions custom du localStorage
+    let custom = {}
+    try {
+      const raw = localStorage.getItem('quiz_custom_questions')
+      custom = raw ? JSON.parse(raw) : {}
+    } catch { custom = {} }
+
+    // Fusionne : custom écrase les entrées du JSON de base
+    const merged = { ...defaultQuestions }
+    for (const level of Object.keys(custom)) {
+      merged[level] = { ...(merged[level] || {}), ...custom[level] }
+    }
+
+    const blob = new Blob([JSON.stringify(merged, null, 2)], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = 'questions.json'
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
+  // --- Fonction commune d'import ---
+  const handleQuestionsImported = (level, subject, filename, questions) => {
+    const key = `${level}_${subject}`
+    onQuestionsImported(level, subject, questions)
+    setWordFile(level, subject, filename)
+    setImportStatus(prev => ({
+      ...prev,
+      [key]: {
+        type: 'success',
+        msg: `✅ ${questions.length} question(s) importée(s) depuis "${filename}" et sauvegardées !`,
+      },
+    }))
+  }
+
+  // --- Import depuis /public/words/ ---
   const handleSaveWordPath = async () => {
     const filename = wordFilename.trim()
     if (!filename) return
@@ -49,25 +88,20 @@ export default function AdminPanel({ onBack, onQuestionsImported }) {
       if (questions.length === 0) {
         setImportStatus(prev => ({ ...prev, [key]: { type: 'error', msg: 'Aucune question trouvée. Vérifiez le format du fichier.' } }))
       } else {
-        setWordFile(selectedLevel, selectedSubject, filename)
-        onQuestionsImported(selectedLevel, selectedSubject, questions)
+        handleQuestionsImported(selectedLevel, selectedSubject, filename, questions)
         setWordFilename('')
-        setImportStatus(prev => ({
-          ...prev,
-          [key]: { type: 'success', msg: `✅ ${questions.length} question(s) importée(s) depuis "${filename}" !` },
-        }))
       }
     } catch (err) {
       setImportStatus(prev => ({
         ...prev,
-        [key]: { type: 'error', msg: `Erreur : fichier introuvable ou format invalide. Vérifiez que "${filename}" est bien dans le dossier public/words/` },
+        [key]: { type: 'error', msg: `Erreur : fichier introuvable ou format invalide.` },
       }))
     } finally {
       setImporting(false)
     }
   }
 
-  // Import direct depuis le navigateur (sélection de fichier)
+  // --- Import direct depuis le navigateur ---
   const handleFileSelect = async (e) => {
     const file = e.target.files[0]
     if (!file) return
@@ -79,12 +113,7 @@ export default function AdminPanel({ onBack, onQuestionsImported }) {
       if (questions.length === 0) {
         setImportStatus(prev => ({ ...prev, [key]: { type: 'error', msg: 'Aucune question trouvée. Vérifiez le format du fichier.' } }))
       } else {
-        setWordFile(selectedLevel, selectedSubject, file.name)
-        onQuestionsImported(selectedLevel, selectedSubject, questions)
-        setImportStatus(prev => ({
-          ...prev,
-          [key]: { type: 'success', msg: `✅ ${questions.length} question(s) importée(s) avec succès !` },
-        }))
+        handleQuestionsImported(selectedLevel, selectedSubject, file.name, questions)
       }
     } catch (err) {
       setImportStatus(prev => ({ ...prev, [key]: { type: 'error', msg: `Erreur : ${err.message}` } }))
@@ -161,10 +190,8 @@ export default function AdminPanel({ onBack, onQuestionsImported }) {
             >
               <p className="admin-hint">
                 Les élèves ajoutés ici seront disponibles pour sélection au démarrage d'un quiz.
-                La suppression se fait manuellement depuis cette liste.
               </p>
 
-              {/* Formulaire ajout */}
               <form className="add-student-form" onSubmit={handleAddStudent}>
                 <input
                   type="text"
@@ -187,7 +214,6 @@ export default function AdminPanel({ onBack, onQuestionsImported }) {
               </form>
               {nameError && <p className="form-error">{nameError}</p>}
 
-              {/* Liste des élèves */}
               {students.length === 0 ? (
                 <p className="empty-list">Aucun élève enregistré.</p>
               ) : (
@@ -209,9 +235,7 @@ export default function AdminPanel({ onBack, onQuestionsImported }) {
                             className="btn-remove"
                             onClick={() => removeStudent(s.name)}
                             title="Supprimer"
-                          >
-                            ✕
-                          </button>
+                          >✕</button>
                         </motion.div>
                       ))}
                     </AnimatePresence>
@@ -236,8 +260,9 @@ export default function AdminPanel({ onBack, onQuestionsImported }) {
               exit={{ opacity: 0, y: -10 }}
             >
               <p className="admin-hint">
-                Sélectionne un niveau et une matière, puis importe le fichier Word correspondant.
-                Les questions seront extraites automatiquement.
+                Sélectionne un niveau et une matière, puis importe le fichier Word.
+                Les questions seront extraites et sauvegardées. Tu pourras ensuite
+                télécharger le <code>questions.json</code> mis à jour pour remplacer celui de ton projet.
               </p>
 
               {/* Sélecteurs niveau / matière */}
@@ -264,7 +289,7 @@ export default function AdminPanel({ onBack, onQuestionsImported }) {
                 </div>
               </div>
 
-              {/* Statut actuel */}
+              {/* Fichier actuel */}
               {currentWordFile && (
                 <div className="word-current">
                   <span>📄 Fichier actuel :</span>
@@ -273,9 +298,7 @@ export default function AdminPanel({ onBack, onQuestionsImported }) {
                     className="btn-remove"
                     onClick={() => removeWordFile(selectedLevel, selectedSubject)}
                     title="Supprimer"
-                  >
-                    ✕
-                  </button>
+                  >✕</button>
                 </div>
               )}
 
@@ -284,7 +307,6 @@ export default function AdminPanel({ onBack, onQuestionsImported }) {
                 <h4>Importer un fichier Word</h4>
                 <p className="admin-hint-small">
                   Clique sur le bouton pour sélectionner ton fichier <code>.docx</code>.
-                  Les questions seront lues et importées directement.
                 </p>
 
                 <motion.button
@@ -304,10 +326,9 @@ export default function AdminPanel({ onBack, onQuestionsImported }) {
                   onChange={handleFileSelect}
                 />
 
-                {/* Ou saisir le chemin manuellement */}
                 <div className="word-manual">
                   <p className="admin-hint-small">
-                    Ou indique le nom du fichier si tu l'as placé dans le dossier <code>public/words/</code> :
+                    Ou indique le nom si le fichier est dans <code>public/words/</code> :
                   </p>
                   <div className="word-path-form">
                     <input
@@ -326,9 +347,6 @@ export default function AdminPanel({ onBack, onQuestionsImported }) {
                       {importing ? '⏳...' : '📥 Importer'}
                     </button>
                   </div>
-                  <p className="admin-hint-small" style={{ marginTop: '0.3rem', color: 'var(--color-text-muted)' }}>
-                    Le fichier sera lu et les questions importées automatiquement.
-                  </p>
                 </div>
               </div>
 
@@ -345,6 +363,24 @@ export default function AdminPanel({ onBack, onQuestionsImported }) {
                   </motion.div>
                 )}
               </AnimatePresence>
+
+              {/* ✅ Bouton télécharger le JSON mis à jour */}
+              <div className="word-download-zone">
+                <h4>⬇️ Mettre à jour questions.json</h4>
+                <p className="admin-hint-small">
+                  Après avoir importé tes fichiers Word, télécharge le <code>questions.json</code> mis à jour
+                  et remplace le fichier <code>src/data/questions.json</code> de ton projet.
+                  Les questions seront ainsi intégrées définitivement.
+                </p>
+                <motion.button
+                  className="btn-download-json"
+                  whileHover={{ scale: 1.03 }}
+                  whileTap={{ scale: 0.97 }}
+                  onClick={handleDownloadJson}
+                >
+                  ⬇️ Télécharger questions.json
+                </motion.button>
+              </div>
 
               {/* Format attendu */}
               <div className="word-format-guide">

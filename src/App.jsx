@@ -25,28 +25,13 @@ export default function App() {
   const [players, setPlayers] = useState([])
   const [darkMode, setDarkMode] = useState(true)
 
-  // Questions : custom (localStorage) en priorité, sinon questions.json
-  const { getQuestions, hasCustom, addQuestion: addQ } = useQuestions()
+  // ✅ importQuestions remplace handleQuestionsImported + wordImported
+  const { getQuestions, hasCustom, addQuestion, importQuestions } = useQuestions()
 
-  // Import depuis Word (session uniquement, en mémoire)
-  const [wordImported, setWordImported] = useState({})
+  // Les questions Word importées sont maintenant sauvegardées dans localStorage
+  // via importQuestions → plus besoin de wordImported ni de getActiveQuestions séparé
 
-  const handleQuestionsImported = (level, subject, questions) => {
-    setWordImported(prev => ({
-      ...prev,
-      [level]: { ...(prev[level] || {}), [subject]: questions },
-    }))
-  }
-
-  const getActiveQuestions = (level, subject) => {
-    // Priorité : Word importé en session > custom localStorage > questions.json
-    return (
-      wordImported[level]?.[subject] ||
-      getQuestions(level, subject)
-    )
-  }
-
-  const getQuestionCount = (level, subject) => getActiveQuestions(level, subject).length
+  const getQuestionCount = (level, subject) => getQuestions(level, subject).length
 
   const addOrUpdatePlayer = (name, score) => {
     setPlayers(prev => {
@@ -96,7 +81,10 @@ export default function App() {
           <AdminPanel
             key="admin"
             onBack={() => setScreen(SCREENS.HOME)}
-            onQuestionsImported={handleQuestionsImported}
+            // ✅ On passe importQuestions à AdminPanel
+            onQuestionsImported={(level, subject, questions) =>
+              importQuestions(level, subject, questions, 'replace')
+            }
           />
         )}
 
@@ -131,7 +119,7 @@ export default function App() {
             key={`quiz-${currentStudent}`}
             level={selectedLevel}
             subject={selectedSubject}
-            questions={getActiveQuestions(selectedLevel, selectedSubject)}
+            questions={getQuestions(selectedLevel, selectedSubject)}
             currentStudent={currentStudent}
             players={players}
             onAddPlayer={addOrUpdatePlayer}
