@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Timer from './Timer'
 import ScoreBoard from './ScoreBoard'
+import { useStudents } from '../hooks/useStudents'
 
 const TIMER_DURATION = 15
 const POINTS_CORRECT = 10
@@ -45,34 +46,145 @@ function playSound(type) {
 
 const optionLetters = ['A', 'B', 'C', 'D']
 
+// ─── Sous-composant : sélection de l'élève pour la question courante ───
+function StudentPicker({ questionIndex, totalQuestions, players, students, onStudentSelected, onEnd, onReset, level, subject }) {
+  const [selected, setSelected] = useState(null)
+
+  // Map nom → score actuel pour affichage
+  const scoreMap = {}
+  players.forEach(p => { scoreMap[p.name] = p.score })
+
+  return (
+    <motion.div
+      className="student-picker-overlay"
+      key={`picker-${questionIndex}`}
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.95 }}
+      transition={{ duration: 0.25 }}
+    >
+      <div className="picker-header">
+        <div className="quiz-meta">
+          <span className="quiz-level-badge">{level}</span>
+          <span className="quiz-subject-badge">{subject}</span>
+        </div>
+        <div className="picker-progress">
+          <span className="question-counter">
+            Question {questionIndex + 1} / {totalQuestions}
+          </span>
+          <div className="progress-bar-wrapper">
+            <motion.div
+              className="progress-bar-fill"
+              animate={{ width: `${((questionIndex + 1) / totalQuestions) * 100}%` }}
+              transition={{ duration: 0.5 }}
+            />
+          </div>
+        </div>
+        <button className="btn-reset-small" onClick={onReset} title="Réinitialiser">↺ Reset</button>
+      </div>
+
+      <div className="picker-body">
+        <motion.h2
+          className="picker-title"
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+        >
+          🎯 Qui répond à la question {questionIndex + 1} ?
+        </motion.h2>
+
+        <div className="picker-grid">
+          {students.map((s, i) => {
+            const score = scoreMap[s.name] ?? 0
+            const isSelected = selected === s.name
+            return (
+              <motion.button
+                key={s.name}
+                className={`picker-card ${isSelected ? 'picker-card--selected' : ''}`}
+                onClick={() => setSelected(s.name)}
+                initial={{ opacity: 0, y: 15 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.05 }}
+                whileHover={{ scale: 1.04 }}
+                whileTap={{ scale: 0.96 }}
+              >
+                <span className="picker-card-icon">{isSelected ? '✓' : '👤'}</span>
+                <span className="picker-card-name">{s.name}</span>
+                <span className="picker-card-score">{score} pts</span>
+              </motion.button>
+            )
+          })}
+        </div>
+
+        <AnimatePresence>
+          {selected && (
+            <motion.div
+              className="picker-confirm-row"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0 }}
+            >
+              <motion.button
+                className="btn-start-quiz"
+                onClick={() => onStudentSelected(selected)}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.97 }}
+              >
+                🎯 <strong>{selected}</strong> répond →
+              </motion.button>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {players.length > 0 && (
+          <motion.button
+            className="btn-end-early"
+            onClick={onEnd}
+            style={{ marginTop: '1rem' }}
+            whileHover={{ scale: 1.02 }}
+          >
+            🏁 Terminer le concours
+          </motion.button>
+        )}
+      </div>
+
+      {/* Classement en sidebar */}
+      <div className="quiz-sidebar picker-sidebar">
+        <ScoreBoard players={players} />
+      </div>
+    </motion.div>
+  )
+}
+
+// ─── Composant principal ───
 export default function QuizScreen({
   level,
   subject,
   questions,
-  currentStudent,
   players,
   onAddPlayer,
-  onStudentFinished,
   onEnd,
   onReset,
 }) {
+  const { students } = useStudents()
+
   const [questionIndex, setQuestionIndex] = useState(0)
+  const [currentStudent, setCurrentStudent] = useState(null) // null = phase sélection
   const [selectedOption, setSelectedOption] = useState(null)
   const [answered, setAnswered] = useState(false)
   const [timeLeft, setTimeLeft] = useState(TIMER_DURATION)
   const [timedOut, setTimedOut] = useState(false)
   const [showResult, setShowResult] = useState(false)
-  // Score de la session courante pour cet élève
-  const [sessionScore, setSessionScore] = useState(0)
+  const [sessionScores, setSessionScores] = useState({}) // scores cumulés par élève
 
   const timerRef = useRef(null)
 
   const currentQuestion = questions[questionIndex]
   const isLastQuestion = questionIndex === questions.length - 1
 
-  // Démarrer le timer à chaque nouvelle question
+  // Démarrer le timer quand un élève est sélectionné
   useEffect(() => {
-    if (answered) return
+    if (!currentStudent || answered) return
     setTimeLeft(TIMER_DURATION)
 
     timerRef.current = setInterval(() => {
@@ -87,7 +199,7 @@ export default function QuizScreen({
     }, 1000)
 
     return () => clearInterval(timerRef.current)
-  }, [questionIndex])
+  }, [currentStudent, questionIndex])
 
   const handleTimeout = useCallback(() => {
     clearInterval(timerRef.current)
@@ -108,20 +220,29 @@ export default function QuizScreen({
     const isCorrect = index === currentQuestion.correctIndex
     if (isCorrect) {
       playSound('correct')
-      setSessionScore(s => s + POINTS_CORRECT)
+      // Ajouter les points à l'élève courant
+      setSessionScores(prev => ({
+        ...prev,
+        [currentStudent]: (prev[currentStudent] ?? 0) + POINTS_CORRECT
+      }))
     } else {
       playSound('wrong')
     }
   }
 
   const handleNextQuestion = () => {
+    // Enregistrer le score de l'élève courant (score cumulé total)
+    const totalScore = (sessionScores[currentStudent] ?? 0)
+    onAddPlayer(currentStudent, totalScore)
+
     if (isLastQuestion) {
-      // L'élève a terminé toutes les questions — on enregistre son score total
-      onAddPlayer(currentStudent, sessionScore)
-      onStudentFinished()
+      onEnd()
       return
     }
+
+    // Revenir à la phase sélection pour la prochaine question
     setQuestionIndex(i => i + 1)
+    setCurrentStudent(null)
     setSelectedOption(null)
     setAnswered(false)
     setTimedOut(false)
@@ -147,6 +268,33 @@ export default function QuizScreen({
     )
   }
 
+  // ── Phase 1 : sélection de l'élève ──
+  if (!currentStudent) {
+    // Construire la liste des joueurs avec scores actuels fusionnés
+    const mergedPlayers = students.map(s => ({
+      name: s.name,
+      score: sessionScores[s.name] ?? (players.find(p => p.name === s.name)?.score ?? 0)
+    }))
+
+    return (
+      <AnimatePresence mode="wait">
+        <StudentPicker
+          key={`picker-${questionIndex}`}
+          questionIndex={questionIndex}
+          totalQuestions={questions.length}
+          players={mergedPlayers}
+          students={students}
+          onStudentSelected={(name) => setCurrentStudent(name)}
+          onEnd={onEnd}
+          onReset={onReset}
+          level={level}
+          subject={subject}
+        />
+      </AnimatePresence>
+    )
+  }
+
+  // ── Phase 2 : l'élève répond ──
   return (
     <motion.div
       className="quiz-screen"
@@ -187,7 +335,7 @@ export default function QuizScreen({
           </div>
           <div className="session-score-badge">
             <span>Score : </span>
-            <strong>{sessionScore} pts</strong>
+            <strong>{sessionScores[currentStudent] ?? 0} pts</strong>
           </div>
           <Timer timeLeft={timeLeft} totalTime={TIMER_DURATION} isActive={!answered} />
         </div>
@@ -258,8 +406,8 @@ export default function QuizScreen({
               {timedOut
                 ? `⏰ Temps écoulé ! Bonne réponse : ${currentQuestion.options[currentQuestion.correctIndex]}`
                 : selectedOption === currentQuestion.correctIndex
-                ? `🎉 Bravo ! +${POINTS_CORRECT} points !`
-                : `❌ Dommage ! Bonne réponse : ${currentQuestion.options[currentQuestion.correctIndex]}`
+                ? `🎉 Bravo ${currentStudent} ! +${POINTS_CORRECT} points !`
+                : `❌ Dommage ${currentStudent} ! Bonne réponse : ${currentQuestion.options[currentQuestion.correctIndex]}`
               }
             </motion.div>
           )}
@@ -281,14 +429,14 @@ export default function QuizScreen({
                 whileTap={{ scale: 0.97 }}
               >
                 {isLastQuestion
-                  ? `✅ Terminer (${currentStudent})`
+                  ? '✅ Terminer le quiz'
                   : 'Question suivante →'}
               </motion.button>
               {!isLastQuestion && (
                 <motion.button
                   className="btn-end-early"
                   onClick={() => {
-                    onAddPlayer(currentStudent, sessionScore)
+                    onAddPlayer(currentStudent, sessionScores[currentStudent] ?? 0)
                     onEnd()
                   }}
                   whileHover={{ scale: 1.02 }}
@@ -304,7 +452,12 @@ export default function QuizScreen({
 
       {/* Panneau droit : classement */}
       <div className="quiz-sidebar">
-        <ScoreBoard players={players} />
+        <ScoreBoard players={
+          students.map(s => ({
+            name: s.name,
+            score: sessionScores[s.name] ?? (players.find(p => p.name === s.name)?.score ?? 0)
+          }))
+        } />
       </div>
     </motion.div>
   )
